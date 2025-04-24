@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebPolideportivo.o8otloc37e.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebPolideportivo.props",
+      "PackagePath": "build\\WebPolideportivo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebPolideportivo.props",
+      "PackagePath": "buildMultiTargeting\\WebPolideportivo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebPolideportivo.props",
+      "PackagePath": "buildTransitive\\WebPolideportivo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
