@@ -3,68 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\pages\\perfil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\pages\\perfil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\pages\\reservar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\pages\\reservar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\models\\pista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\models\\pista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70AD5DD8-4543-4AB3-8401-A84D09B5400E}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\models\\disponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\models\\disponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,197 +42,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-23T19:38:31.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Layout\\NavMenu.razor.css",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Layout\\NavMenu.razor.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-23T19:37:02.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "WebPolideportivo\\wwwroot\\app.css",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\app.css",
-              "RelativeToolTip": "WebPolideportivo\\wwwroot\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-23T19:28:55.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:21:09.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:21:06.694Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Perfil.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Perfil.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Pages\\Perfil.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Perfil.razor*",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Pages\\Perfil.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:20:15.516Z",
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Shared\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Shared\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Shared\\NavMenu.razor.css",
+              "RelativeToolTip": "WebPolideportivo\\Shared\\NavMenu.razor.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwGkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-05T17:44:13.369Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Routes.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:19:56.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:14:20.066Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "WebPolideportivo\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:15:25.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T17:30:00.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "favicon.png - PNG [32x32, 32 bits, PNG]",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png",
-              "RelativeDocumentMoniker": "WebPolideportivo\\wwwroot\\favicon.png",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png - PNG [32x32, 32 bits, PNG]",
-              "RelativeToolTip": "WebPolideportivo\\wwwroot\\favicon.png - PNG [32x32, 32 bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-04-23T19:29:02.819Z",
-              "EditorCaption": " - PNG [32x32, 32 bits, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\App.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\App.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:30:13.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "WebPolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "RelativeToolTip": "WebPolideportivo\\wwwroot\\bootstrap\\bootstrap.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-23T19:32:55.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:14:34.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:30:28.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Components\\_Imports.razor",
-              "RelativeToolTip": "WebPolideportivo\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:15:29.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Program.cs",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Program.cs",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Program.cs",
-              "RelativeToolTip": "WebPolideportivo\\Program.cs",
+              "DocumentIndex": 5,
+              "Title": "Disponibilidad.cs",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Models\\Disponibilidad.cs",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Models\\Disponibilidad.cs",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Models\\Disponibilidad.cs",
+              "RelativeToolTip": "WebPolideportivo\\Models\\Disponibilidad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:14:37.12Z"
+              "WhenOpened": "2025-05-05T17:28:37.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pista.cs",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Models\\Pista.cs",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Models\\Pista.cs",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Models\\Pista.cs",
+              "RelativeToolTip": "WebPolideportivo\\Models\\Pista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:28:36.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Services\\ApiService.cs",
+              "RelativeToolTip": "WebPolideportivo\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:25:00.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reservar.razor",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Pages\\Reservar.razor",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Pages\\Reservar.razor",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Pages\\Reservar.razor",
+              "RelativeToolTip": "WebPolideportivo\\Pages\\Reservar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T17:24:35.878Z"
             }
           ]
         }

@@ -1,0 +1,50 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">WebPolideportivo</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" @bind="collapseNavMenu" />
+
+<div class="nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="d-flex flex-column" style="height: 100%;">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="mis-reservas">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Mis Reservas
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="reservar">
+                <span class="oi oi-calendar" aria-hidden="true"></span> Reservar
+            </NavLink>
+        </div>
+
+        <div class="mt-auto nav-item px-3">
+            <NavLink class="nav-link" href="perfil">
+                <span class="bi bi-person-circle-nav-menu" aria-hidden="true"></span> Perfil
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = false;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
