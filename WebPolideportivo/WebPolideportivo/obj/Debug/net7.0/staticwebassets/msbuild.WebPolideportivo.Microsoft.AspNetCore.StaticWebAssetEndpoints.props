@@ -156,17 +156,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 14:17:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/WebPolideportivo.80qozqgmj3.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebPolideportivo.80qozqgmj3.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/WebPolideportivo.7l1kxtjsbr.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebPolideportivo.7l1kxtjsbr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"80qozqgmj3"},{"Name":"integrity","Value":"sha256-qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY="},{"Name":"label","Value":"_content/WebPolideportivo/WebPolideportivo.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5871"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 17:44:20 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7l1kxtjsbr"},{"Name":"integrity","Value":"sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="},{"Name":"label","Value":"_content/WebPolideportivo/WebPolideportivo.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 17:54:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebPolideportivo/WebPolideportivo.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebPolideportivo.80qozqgmj3.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebPolideportivo.7l1kxtjsbr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5871"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 17:44:20 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 17:54:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

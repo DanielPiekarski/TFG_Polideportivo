@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using WebPolideportivo.Data;
 using WebPolideportivo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
 
 builder.Services.AddHttpClient<ApiService>(client =>
 {

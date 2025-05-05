@@ -106,7 +106,6 @@
     }
 
     .nav-scrollable {
-        /* Never collapse the sidebar for wide screens */
         display: block;
         height: calc(100vh - 3.5rem);
         overflow-y: auto;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "74hWTuUDWjd4/t1k9xfWOSvzsCpqFnCAlpkLExvEUYA=",
+  "Hash": "LXOT7/utpI+NPKY4CMESt0mU9qaoCNlWfU2GNrttGbg=",
   "Source": "WebPolideportivo",
   "BasePath": "_content/WebPolideportivo",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "80qozqgmj3",
-      "Integrity": "qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=",
+      "Fingerprint": "7l1kxtjsbr",
+      "Integrity": "9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebPolideportivo.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "80qozqgmj3",
-      "Integrity": "qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=",
+      "Fingerprint": "7l1kxtjsbr",
+      "Integrity": "9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css"
@@ -1400,7 +1400,7 @@
       ]
     },
     {
-      "Route": "WebPolideportivo.80qozqgmj3.bundle.scp.css",
+      "Route": "WebPolideportivo.7l1kxtjsbr.bundle.scp.css",
       "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1410,7 +1410,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5871"
+          "Value": "5812"
         },
         {
           "Name": "Content-Type",
@@ -1418,11 +1418,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=\""
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:44:20 GMT"
+          "Value": "Mon, 05 May 2025 17:54:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1432,7 +1432,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "80qozqgmj3"
+          "Value": "7l1kxtjsbr"
         },
         {
           "Name": "label",
@@ -1440,12 +1440,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY="
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
         }
       ]
     },
     {
-      "Route": "WebPolideportivo.80qozqgmj3.styles.css",
+      "Route": "WebPolideportivo.7l1kxtjsbr.styles.css",
       "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebPolideportivo.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1455,7 +1455,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5871"
+          "Value": "5812"
         },
         {
           "Name": "Content-Type",
@@ -1463,11 +1463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=\""
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:44:20 GMT"
+          "Value": "Mon, 05 May 2025 17:54:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1477,7 +1477,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "80qozqgmj3"
+          "Value": "7l1kxtjsbr"
         },
         {
           "Name": "label",
@@ -1485,7 +1485,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY="
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
         }
       ]
     },
@@ -1500,7 +1500,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5871"
+          "Value": "5812"
         },
         {
           "Name": "Content-Type",
@@ -1508,11 +1508,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=\""
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:44:20 GMT"
+          "Value": "Mon, 05 May 2025 17:54:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1522,7 +1522,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY="
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
         }
       ]
     },
@@ -1537,7 +1537,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5871"
+          "Value": "5812"
         },
         {
           "Name": "Content-Type",
@@ -1545,11 +1545,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY=\""
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 17:44:20 GMT"
+          "Value": "Mon, 05 May 2025 17:54:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,7 +1559,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qMSAdvnme5gh8M66v42GR/6fLrHtN3dB/0Urn6AlysY="
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
         }
       ]
     }
