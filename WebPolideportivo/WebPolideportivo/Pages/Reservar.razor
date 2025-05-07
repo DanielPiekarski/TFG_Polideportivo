@@ -1,7 +1,9 @@
 ﻿@page "/reservar"
+@using Microsoft.AspNetCore.Components.Forms
 @using WebPolideportivo.Models
 @using WebPolideportivo.Services
 @inject ApiService ApiService
+@inject IJSRuntime JSRuntime
 
 <PageTitle>Reservar</PageTitle>
 
@@ -11,7 +13,9 @@
     <div class="row g-3">
         <div class="col-md-3">
             <label>Fecha:</label>
-            <InputDate @bind-Value="fechaSeleccionada" class="form-control" />
+            <InputDate @bind-Value="fechaSeleccionada" class="form-control"
+                                    min="@datetoMin.ToString("yyyy-MM-dd")"
+                                    max="@datetoMax.ToString("yyyy-MM-dd")" />
         </div>
         <div class="col-md-2">
             <label>Hora inicio:</label>
@@ -62,21 +66,23 @@ else
             var precioTotal = pista.PrecioPorHora * HorasReservadas;
 
             <div class="col">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">@pista.Nombre</h5>
-                        <p class="card-text">
-                            Tipo: <strong>@pista.Tipo</strong><br />
-                            Precio: <strong>@(pista.PrecioPorHora.ToString("F2")) € / hora</strong>
-                        </p>
-                        <p class="card-text">
-                            Reservando: @HorasReservadas hora(s) (@RangoHoras)
-                        </p>
-                        <p class="card-text">
-                            <strong>Total: @(precioTotal.ToString("F2")) €</strong>
-                        </p>
+                <a href="@($"/pista/{pista.Id}")" class="text-decoration-none text-dark" @onclick="() => GuardarDatosSeleccionados(pista)">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@pista.Nombre</h5>
+                            <p class="card-text">
+                                Tipo: <strong>@pista.Tipo</strong><br/>
+                                Precio: <strong>@(pista.PrecioPorHora.ToString("F2")) € / hora</strong>
+                            </p>
+                            <p class="card-text">
+                                Reservando: @HorasReservadas hora(s) (@RangoHoras)
+                            </p>
+                            <p class="card-text">
+                                <strong>Total: @(precioTotal.ToString("F2")) €</strong>
+                            </p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         }
     </div>
@@ -96,6 +102,9 @@ else
     private List<Pista>? pistasFiltradas;
 
     private string? mensajeError;
+
+    DateTime datetoMin = DateTime.Now;
+    DateTime datetoMax = DateTime.Now.AddYears(1);
 
     private int HorasReservadas => Math.Max(0, TimeSpan.Parse(horaFin).Hours - TimeSpan.Parse(horaInicio).Hours);
     private string RangoHoras => $"{horaInicio} - {horaFin}";
@@ -139,5 +148,12 @@ else
                 pistasFiltradas.Add(pista);
             }
         }
+    }
+
+    private void GuardarDatosSeleccionados(Pista pista)
+    {
+        JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "horaInicio", horaInicio);
+        JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "horaFin", horaFin);
+        JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "fechaSeleccionada", fechaSeleccionada.ToString("yyyy-MM-dd"));
     }
 }

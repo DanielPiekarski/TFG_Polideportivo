@@ -1,7 +1,38 @@
 ﻿@page "/mis-reservas"
+@using WebPolideportivo.Services
+@inject ReservaService ReservaService
+
+<PageTitle>Mis Reservas</PageTitle>
 
 <h3>Mis Reservas</h3>
 
-@code {
-
+@if (!ReservaService.ObtenerReservas().Any())
+{
+    <p>No hay reservas registradas.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Pista</th>
+                <th>Fecha</th>
+                <th>Hora inicio</th>
+                <th>Hora fin</th>
+                <th>Total (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reserva in ReservaService.ObtenerReservas())
+            {
+                <tr>
+                    <td>@reserva.NombrePista</td>
+                    <td>@reserva.Fecha.ToString("yyyy-MM-dd")</td>
+                    <td>@reserva.HoraInicio</td>
+                    <td>@reserva.HoraFin</td>
+                    <td>@reserva.PrecioTotal.ToString("F2")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }

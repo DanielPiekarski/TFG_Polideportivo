@@ -10,5 +10,6 @@ public class Pista
 
     [JsonPropertyName("precio_por_hora")]
     public decimal PrecioPorHora { get; set; }
+    public string? ImagenNombre { get; set; }
 
 }

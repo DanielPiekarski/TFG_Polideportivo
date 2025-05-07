@@ -1,0 +1,123 @@
+﻿@page "/pista/{Id:int}"
+@using WebPolideportivo.Models
+@using WebPolideportivo.Services
+@using System.Text.Json
+@using System.Text
+
+@inject ReservaService ReservaService
+@inject ApiService ApiService
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<PageTitle>@(pista?.Nombre ?? "Pista")</PageTitle>
+
+@if (pista == null)
+{
+    <p><em>Cargando información...</em></p>
+}
+else
+{
+    <div class="row mt-2">
+        <div class="col-md-8">
+            <img src="@ImagenPista" alt="Imagen de la pista" class="img-fluid rounded shadow-sm w-100 mb-auto" />
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title">@pista.Nombre</h3>
+                    <h5 class="text-muted">@pista.Tipo</h5>
+                    <hr />
+                    <p>
+                        <strong>Fecha reservada:</strong><br />
+                        @FechaSeleccionada.ToString("yyyy-MM-dd")
+                    </p>
+                    <p>
+                        <strong>Hora de inicio:</strong> @HoraInicio<br />
+                        <strong>Hora de fin:</strong> @HoraFin
+                    </p>
+                    <p>
+                        <strong>Precio por hora:</strong> @($"{pista.PrecioPorHora:F2}") €<br />
+                        <strong>Horas reservadas:</strong> @HorasReservadas
+                    </p>
+                    <hr />
+                    <h4>Total: <strong>@($"{(pista.PrecioPorHora * HorasReservadas):F2}") €</strong></h4>
+                </div>
+            </div>
+
+            <div class="mt-3">
+                <button class="btn btn-success w-100" @onclick="Reservar">Reservar</button>
+            </div>
+
+            @if (!string.IsNullOrEmpty(mensajeError))
+            {
+                <div class="alert alert-danger mt-2">
+                    @mensajeError
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Pista? pista;
+    private string? HoraInicio;
+    private string? HoraFin;
+    private DateTime FechaSeleccionada;
+    private string? mensajeError;
+
+    private int HorasReservadas => (int)(TimeSpan.Parse(HoraFin ?? "00:00") - TimeSpan.Parse(HoraInicio ?? "00:00")).TotalHours;
+
+    private string ImagenPista => $"/images/pista-{pista?.Id}.png";
+
+    protected override async Task OnInitializedAsync()
+    {
+        pista = await ApiService.GetPistaPorIdAsync(Id);
+        HoraInicio = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "horaInicio");
+        HoraFin = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "horaFin");
+        var fechaSeleccionada = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "fechaSeleccionada");
+
+        if (fechaSeleccionada != null)
+        {
+            FechaSeleccionada = DateTime.Parse(fechaSeleccionada);
+        }
+    }
+
+    private async Task Reservar()
+    {
+        if (pista == null || string.IsNullOrEmpty(HoraInicio) || string.IsNullOrEmpty(HoraFin))
+        {
+            mensajeError = "Por favor, asegúrate de seleccionar la hora de inicio y la hora de fin.";
+            return;
+        }
+
+        var horaInicio = FechaSeleccionada.Date.Add(TimeSpan.Parse(HoraInicio));
+        var horaFin = FechaSeleccionada.Date.Add(TimeSpan.Parse(HoraFin));
+
+        if (horaInicio >= horaFin)
+        {
+            mensajeError = "La hora de inicio debe ser antes que la hora de fin.";
+            return;
+        }
+
+        await ApiService.CrearReservaAsync(pista.Id, horaInicio, horaFin);
+
+        var reserva = new Reserva
+        {
+            PistaId = pista.Id,
+            NombrePista = pista.Nombre,
+            Fecha = FechaSeleccionada,
+            HoraInicio = HoraInicio,
+            HoraFin = HoraFin,
+            PrecioTotal = pista.PrecioPorHora * HorasReservadas
+        };
+
+        ReservaService.AgregarReserva(reserva);
+
+        NavigationManager.NavigateTo("/mis-reservas");
+    }
+}
+
