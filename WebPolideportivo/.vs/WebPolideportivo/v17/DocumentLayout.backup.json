@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\",
+  "WorkspaceRootPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg\\webpolideportivo\\webpolideportivo\\pages\\misreservas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg_polideportivo\\webpolideportivo\\webpolideportivo\\pages\\misreservas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\pages\\misreservas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MisReservas.razor",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Pages\\MisReservas.razor",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\MisReservas.razor",
               "RelativeDocumentMoniker": "WebPolideportivo\\Pages\\MisReservas.razor",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG\\WebPolideportivo\\WebPolideportivo\\Pages\\MisReservas.razor",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\MisReservas.razor",
               "RelativeToolTip": "WebPolideportivo\\Pages\\MisReservas.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-07T20:07:01.924Z",
               "EditorCaption": ""

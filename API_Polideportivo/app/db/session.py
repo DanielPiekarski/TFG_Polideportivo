@@ -1,6 +1,7 @@
 from sqlmodel import SQLModel, create_engine, Session
+from app.core.config import config
 
-DATABASE_URL = "sqlite:///./test.db"
+DATABASE_URL = config.database_url
 
 engine = create_engine(DATABASE_URL, echo=True)
 
