@@ -1,6 +1,6 @@
 Contenedor api_polideportivo:
-docker build -t api_polideportivo .
+docker build -t api_polideportivo:latest .
 
 Correr el contenedor:
-docker run -d --name api_polideportivo -p 8000:8000 -v %cd%\data:/app/data api_polideportivo
+docker run -d --name api_polideportivo -p 8000:8000 -v "%cd%\data:/app/data" api_polideportivo:latest
 
