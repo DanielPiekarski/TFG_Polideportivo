@@ -1,4 +1,5 @@
 ﻿@page "/reservar"
+<RequireAuth />
 @using Microsoft.AspNetCore.Components.Forms
 @using WebPolideportivo.Models
 @using WebPolideportivo.Services
@@ -14,8 +15,8 @@
         <div class="col-md-3">
             <label>Fecha:</label>
             <InputDate @bind-Value="fechaSeleccionada" class="form-control"
-                                    min="@datetoMin.ToString("yyyy-MM-dd")"
-                                    max="@datetoMax.ToString("yyyy-MM-dd")" />
+                       min="@datetoMin.ToString("yyyy-MM-dd")"
+                       max="@datetoMax.ToString("yyyy-MM-dd")" />
         </div>
         <div class="col-md-2">
             <label>Hora inicio:</label>
@@ -50,7 +51,11 @@
     </div>
 </div>
 
-@if (pistasFiltradas == null)
+@if (!string.IsNullOrEmpty(mensajeError))
+{
+    <div class="alert alert-danger">@mensajeError</div>
+}
+else if (pistasFiltradas == null)
 {
     <p><em>Seleccione los filtros para buscar pistas disponibles.</em></p>
 }
@@ -64,14 +69,13 @@ else
         @foreach (var pista in pistasFiltradas)
         {
             var precioTotal = pista.PrecioPorHora * HorasReservadas;
-
             <div class="col">
-                <a href="@($"/pista/{pista.Id}")" class="text-decoration-none text-dark" @onclick="() => GuardarDatosSeleccionados(pista)">
+                <a href="@($"/pista/{pista.Id}?fecha={fechaConfirmada:yyyy-MM-dd}&horaInicio={horaInicioConfirmada}&horaFin={horaFinConfirmada}")" class="text-decoration-none text-dark">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">@pista.Nombre</h5>
                             <p class="card-text">
-                                Tipo: <strong>@pista.Tipo</strong><br/>
+                                Tipo: <strong>@pista.Tipo</strong><br />
                                 Precio: <strong>@(pista.PrecioPorHora.ToString("F2")) € / hora</strong>
                             </p>
                             <p class="card-text">
@@ -94,9 +98,12 @@ else
     private string horaFin = "09:00";
     private string tipoSeleccionado = "";
 
+    private string horaInicioConfirmada = "";
+    private string horaFinConfirmada = "";
+    private DateTime fechaConfirmada;
+
     private List<string> horasInicioDisponibles = Enumerable.Range(8, 14).Select(h => $"{h:00}:00").ToList();
     private List<string> horasFinDisponibles = Enumerable.Range(9, 14).Select(h => $"{h:00}:00").ToList();
-    private List<string> tiposPistas = new() { "Pádel", "Tenis", "Fútbol" };
 
     private List<Pista>? pistas;
     private List<Pista>? pistasFiltradas;
@@ -106,8 +113,8 @@ else
     DateTime datetoMin = DateTime.Now;
     DateTime datetoMax = DateTime.Now.AddYears(1);
 
-    private int HorasReservadas => Math.Max(0, TimeSpan.Parse(horaFin).Hours - TimeSpan.Parse(horaInicio).Hours);
-    private string RangoHoras => $"{horaInicio} - {horaFin}";
+    private int HorasReservadas => Math.Max(0, TimeSpan.Parse(horaFinConfirmada).Hours - TimeSpan.Parse(horaInicioConfirmada).Hours);
+    private string RangoHoras => $"{horaInicioConfirmada} - {horaFinConfirmada}";
 
     protected override async Task OnInitializedAsync()
     {
@@ -132,15 +139,19 @@ else
         mensajeError = null;
         pistasFiltradas = new();
 
+        horaInicioConfirmada = horaInicio;
+        horaFinConfirmada = horaFin;
+        fechaConfirmada = fechaSeleccionada;
+
         foreach (var pista in pistas)
         {
             if (!string.IsNullOrEmpty(tipoSeleccionado) && pista.Tipo != tipoSeleccionado)
                 continue;
 
-            var disponibilidad = await ApiService.GetDisponibilidadAsync(pista.Id, fechaSeleccionada);
+            var disponibilidad = await ApiService.GetDisponibilidadAsync(pista.Id, fechaConfirmada);
 
             var horasNecesarias = Enumerable.Range(inicioHora, finHora - inicioHora)
-                                            .Select(h => fechaSeleccionada.Date.AddHours(h))
+                                            .Select(h => fechaConfirmada.Date.AddHours(h))
                                             .ToList();
 
             if (horasNecesarias.All(h => disponibilidad.Contains(h)))
@@ -148,12 +159,5 @@ else
                 pistasFiltradas.Add(pista);
             }
         }
-    }
-
-    private void GuardarDatosSeleccionados(Pista pista)
-    {
-        JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "horaInicio", horaInicio);
-        JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "horaFin", horaFin);
-        JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "fechaSeleccionada", fechaSeleccionada.ToString("yyyy-MM-dd"));
     }
 }

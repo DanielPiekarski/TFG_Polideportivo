@@ -1,0 +1,107 @@
+﻿@page "/login"
+@layout EmptyLayout
+@inject ApiService ApiService
+@inject NavigationManager Nav
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://source.unsplash.com/1600x900/?sports,court');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    .center-box {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 2rem;
+        border-radius: 16px;
+        max-width: 400px;
+        margin: 10vh auto;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .form-input {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .form-button {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #007bff;
+        color: white;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .form-button:hover {
+            background-color: #0056b3;
+        }
+
+    .link {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+        .link a {
+            color: #28a745;
+            text-decoration: none;
+        }
+
+            .link a:hover {
+                text-decoration: underline;
+            }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+</style>
+
+<div class="center-box">
+    <h3>Iniciar Sesión</h3>
+
+    <EditForm Model="usuario" OnValidSubmit="HandleLogin">
+        <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Usuario" maxlength="15" />
+        <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" />
+        <button type="submit" class="form-button">Entrar</button>
+    </EditForm>
+
+    @if (msg != null)
+    {
+        <p style="color:red">@msg</p>
+    }
+
+    <div class="link">
+        <a href="/">¿No tienes cuenta? Regístrate</a>
+    </div>
+</div>
+
+@code {
+    UserDto usuario = new();
+    string? msg;
+
+    async Task HandleLogin()
+    {
+        var token = await ApiService.Login(usuario);
+        if (token != null)
+        {
+            msg = null;
+            Nav.NavigateTo("/home");
+        }
+        else
+        {
+            msg = "Usuario o contraseña incorrectos.";
+        }
+    }
+}

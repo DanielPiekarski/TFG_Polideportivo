@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.db.session import setup_database
-from app.routers import pistas, reservas
+from app.routers import pistas, reservas, auth
 
 app = FastAPI()
 
@@ -10,3 +10,4 @@ async def startup():
 
 app.include_router(pistas.router)
 app.include_router(reservas.router)
+app.include_router(auth.router)

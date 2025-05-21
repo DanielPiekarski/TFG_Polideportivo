@@ -1,12 +1,9 @@
 ﻿@page "/pista/{Id:int}"
+<RequireAuth />
 @using WebPolideportivo.Models
 @using WebPolideportivo.Services
-@using System.Text.Json
-@using System.Text
 
-@inject ReservaService ReservaService
 @inject ApiService ApiService
-@inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
 
 <PageTitle>@(pista?.Nombre ?? "Pista")</PageTitle>
@@ -63,27 +60,41 @@ else
     [Parameter]
     public int Id { get; set; }
 
-    private Pista? pista;
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string? fecha { get; set; }
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string? horaInicio { get; set; }
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string? horaFin { get; set; }
+
+    private DateTime FechaSeleccionada;
     private string? HoraInicio;
     private string? HoraFin;
-    private DateTime FechaSeleccionada;
+
+    private Pista? pista;
+
     private string? mensajeError;
 
     private int HorasReservadas => (int)(TimeSpan.Parse(HoraFin ?? "00:00") - TimeSpan.Parse(HoraInicio ?? "00:00")).TotalHours;
 
     private string ImagenPista => $"/images/pista-{pista?.Id}.png";
 
+    protected override void OnParametersSet()
+    {
+        if (fecha != null)
+            FechaSeleccionada = DateTime.Parse(fecha);
+        HoraInicio = horaInicio;
+        HoraFin = horaFin;
+    }
+
     protected override async Task OnInitializedAsync()
     {
         pista = await ApiService.GetPistaPorIdAsync(Id);
-        HoraInicio = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "horaInicio");
-        HoraFin = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "horaFin");
-        var fechaSeleccionada = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "fechaSeleccionada");
-
-        if (fechaSeleccionada != null)
-        {
-            FechaSeleccionada = DateTime.Parse(fechaSeleccionada);
-        }
     }
 
     private async Task Reservar()
@@ -94,30 +105,17 @@ else
             return;
         }
 
-        var horaInicio = FechaSeleccionada.Date.Add(TimeSpan.Parse(HoraInicio));
-        var horaFin = FechaSeleccionada.Date.Add(TimeSpan.Parse(HoraFin));
+        var horaInicioDt = FechaSeleccionada.Date.Add(TimeSpan.Parse(HoraInicio));
+        var horaFinDt = FechaSeleccionada.Date.Add(TimeSpan.Parse(HoraFin));
 
-        if (horaInicio >= horaFin)
+        try
         {
-            mensajeError = "La hora de inicio debe ser antes que la hora de fin.";
-            return;
+            await ApiService.CrearReservaAsync(pista.Id, horaInicioDt, horaFinDt);
+            NavigationManager.NavigateTo("/mis-reservas");
         }
-
-        await ApiService.CrearReservaAsync(pista.Id, horaInicio, horaFin);
-
-        var reserva = new Reserva
+        catch (Exception ex)
         {
-            PistaId = pista.Id,
-            NombrePista = pista.Nombre,
-            Fecha = FechaSeleccionada,
-            HoraInicio = HoraInicio,
-            HoraFin = HoraFin,
-            PrecioTotal = pista.PrecioPorHora * HorasReservadas
-        };
-
-        ReservaService.AgregarReserva(reserva);
-
-        NavigationManager.NavigateTo("/mis-reservas");
+            mensajeError = $"Error al hacer la reserva: {ex.Message}";
+        }
     }
 }
-

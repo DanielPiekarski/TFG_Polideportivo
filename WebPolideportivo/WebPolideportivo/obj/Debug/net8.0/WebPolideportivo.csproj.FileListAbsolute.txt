@@ -178,3 +178,143 @@ C:\Users\Nitropc\Documents\TFG_Polideportivo\WebPolideportivo\WebPolideportivo\o
 C:\Users\Nitropc\Documents\TFG_Polideportivo\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.pdb
 C:\Users\Nitropc\Documents\TFG_Polideportivo\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.genruntimeconfig.cache
 C:\Users\Nitropc\Documents\TFG_Polideportivo\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\ref\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfoInputs.cache
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfo.cs
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.csproj.CoreCompileInputs.cache
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cs
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\refint\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.endpoints.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.runtime.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.exe
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.deps.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.runtimeconfig.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\bundle\WebPolideportivo.styles.css
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\projectbundle\WebPolideportivo.bundle.scp.css
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.build.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.genruntimeconfig.cache
+C:\Users\Nitropc\Downloads\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\ref\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.endpoints.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.runtime.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.exe
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.deps.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.runtimeconfig.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfoInputs.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfo.cs
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.csproj.CoreCompileInputs.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cs
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\bundle\WebPolideportivo.styles.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\projectbundle\WebPolideportivo.bundle.scp.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.build.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\refint\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.genruntimeconfig.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\ref\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.endpoints.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.runtime.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.exe
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.deps.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.runtimeconfig.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfoInputs.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfo.cs
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.csproj.CoreCompileInputs.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cs
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\bundle\WebPolideportivo.styles.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\projectbundle\WebPolideportivo.bundle.scp.css
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.build.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\refint\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.genruntimeconfig.cache
+C:\Users\Nitropc\Downloads\Pruebas de JWP - copia 20.49--19-05\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\ref\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\appsettings.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.endpoints.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.staticwebassets.runtime.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.exe
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.deps.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.runtimeconfig.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\bin\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfoInputs.cache
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.AssemblyInfo.cs
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.csproj.CoreCompileInputs.cache
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cache
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.RazorAssemblyInfo.cs
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\bundle\WebPolideportivo.styles.css
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\scopedcss\projectbundle\WebPolideportivo.bundle.scp.css
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.WebPolideportivo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.build.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebPolideportivo.props
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\refint\WebPolideportivo.dll
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.pdb
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\WebPolideportivo.genruntimeconfig.cache
+C:\Users\Nitropc\Downloads\hago las prebas aqui\WebPolideportivo\WebPolideportivo\obj\Debug\net8.0\ref\WebPolideportivo.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
+      "projectUniqueName": "C:\\Users\\Nitropc\\Downloads\\hago las prebas aqui\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
       "projectName": "WebPolideportivo",
-      "projectPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
+      "projectPath": "C:\\Users\\Nitropc\\Downloads\\hago las prebas aqui\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
       "packagesPath": "C:\\Users\\Nitropc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\",
+      "outputPath": "C:\\Users\\Nitropc\\Downloads\\hago las prebas aqui\\WebPolideportivo\\WebPolideportivo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

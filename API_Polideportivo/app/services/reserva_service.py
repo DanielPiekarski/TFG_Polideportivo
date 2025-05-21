@@ -13,3 +13,7 @@ def obtener_disponibilidad(session: Session, pista_id: int, fecha: datetime):
             horarios_disponibles.append(fecha_hora)
 
     return horarios_disponibles
+
+def calcular_precio(inicio: datetime, fin: datetime, precio_por_hora: float) -> float:
+    duracion_horas = (fin - inicio).total_seconds() / 3600
+    return round(precio_por_hora * duracion_horas, 2)

@@ -3,6 +3,7 @@ from sqlmodel import Session, select
 from app.db.session import get_session
 from app.models.pista import Pista
 from app.schemas.pista import PistaCreate
+from app.core.auth import get_current_user, admin_required
 
 router = APIRouter(prefix="/api/pistas", tags=["Pistas"])
 
@@ -17,7 +18,7 @@ def obtener_pista_por_id(id: int, session: Session = Depends(get_session)):
         raise HTTPException(status_code=404, detail="Pista no encontrada")
     return pista
 
-@router.post("/")
+@router.post("/", dependencies=[Depends(admin_required)])
 def crear_pista(pista: PistaCreate, session: Session = Depends(get_session)):
     nueva_pista = Pista(**pista.dict())
     session.add(nueva_pista)

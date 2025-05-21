@@ -1,4 +1,6 @@
 ﻿@inherits LayoutComponentBase
+@inject AuthService AuthService
+@inject NavigationManager Nav
 
 <PageTitle>WebPolideportivo</PageTitle>
 
@@ -9,7 +11,10 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://www.google.es/" target="_blank">Cerrar sesión</a>
+            @if (AuthService.IsAuthenticated)
+            {
+                <a href="#" @onclick="Logout">Cerrar sesión</a>
+            }
         </div>
 
         <article class="content px-4">
@@ -17,3 +22,11 @@
         </article>
     </main>
 </div>
+
+@code {
+    private void Logout()
+    {
+        AuthService.CerrarSesion();
+        Nav.NavigateTo("/login", true);
+    }
+}

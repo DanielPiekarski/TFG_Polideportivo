@@ -1,38 +1,95 @@
 ﻿@page "/mis-reservas"
-@using WebPolideportivo.Services
-@inject ReservaService ReservaService
+<RequireAuth />
+@inject ApiService ApiService
 
 <PageTitle>Mis Reservas</PageTitle>
 
 <h3>Mis Reservas</h3>
 
-@if (!ReservaService.ObtenerReservas().Any())
+@if (reservas == null)
 {
-    <p>No hay reservas registradas.</p>
+    <p><em>Cargando reservas...</em></p>
+}
+else if (reservas.Count == 0)
+{
+    <p>No tienes reservas realizadas.</p>
 }
 else
 {
-    <table class="table table-striped">
+    <table class="table table-striped table-hover">
         <thead>
             <tr>
                 <th>Pista</th>
                 <th>Fecha</th>
                 <th>Hora inicio</th>
                 <th>Hora fin</th>
-                <th>Total (€)</th>
+                <th>Precio total (€)</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var reserva in ReservaService.ObtenerReservas())
+            @foreach (var reserva in reservas)
             {
                 <tr>
                     <td>@reserva.NombrePista</td>
-                    <td>@reserva.Fecha.ToString("yyyy-MM-dd")</td>
-                    <td>@reserva.HoraInicio</td>
-                    <td>@reserva.HoraFin</td>
-                    <td>@reserva.PrecioTotal.ToString("F2")</td>
+                    <td>@reserva.FechaHoraInicio.ToString("yyyy-MM-dd")</td>
+                    <td>@reserva.FechaHoraInicio.ToString("HH:mm")</td>
+                    <td>@reserva.FechaHoraFin.ToString("HH:mm")</td>
+                    <td>@($"{reserva.PrecioTotal:F2}")€</td>
+                    <td class="text-end">
+                        <button class="btn btn-danger btn-sm" @onclick="() => EliminarReserva(reserva.Id)">
+                            Eliminar
+                        </button>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
+}
+
+@if (!string.IsNullOrEmpty(mensajeError))
+{
+    <div class="alert alert-danger">@mensajeError</div>
+}
+
+@code {
+    private List<Reserva>? reservas;
+    private string? mensajeError;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarReservas();
+    }
+
+    private async Task CargarReservas()
+    {
+        try
+        {
+            reservas = await ApiService.GetMisReservasAsync();
+        }
+        catch (Exception ex)
+        {
+            mensajeError = $"Error cargando reservas: {ex.Message}";
+        }
+    }
+
+    private async Task EliminarReserva(int reservaId)
+    {
+        bool confirmacion = await JSRuntime.InvokeAsync<bool>("confirm", "¿Seguro que quieres eliminar esta reserva?");
+        if (!confirmacion)
+            return;
+
+        try
+        {
+            await ApiService.EliminarReservaAsync(reservaId);
+            await CargarReservas();
+        }
+        catch (Exception ex)
+        {
+            mensajeError = $"Error eliminando reserva: {ex.Message}";
+        }
+    }
+
+    [Inject]
+    private IJSRuntime JSRuntime { get; set; } = default!;
 }

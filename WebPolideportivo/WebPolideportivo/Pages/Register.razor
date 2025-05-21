@@ -1,0 +1,113 @@
+﻿@page "/"
+@layout EmptyLayout
+@inject ApiService ApiService
+@inject NavigationManager Nav
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://source.unsplash.com/1600x900/?sports,court');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    .center-box {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 2rem;
+        border-radius: 16px;
+        max-width: 400px;
+        margin: 10vh auto;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .form-input {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .form-button {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .form-button:hover {
+            background-color: #45a049;
+        }
+
+    .link {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+        .link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .link a:hover {
+                text-decoration: underline;
+            }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+</style>
+
+<div class="center-box">
+    <h3>Registro</h3>
+    <EditForm Model="usuario" OnValidSubmit="HandleRegister">
+        <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Nombre de usuario" maxlength="15" />
+        <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" />
+        <button class="form-button" type="submit">Registrarse</button>
+    </EditForm>
+
+    @if (msg != null)
+    {
+        <p style ="color:red">@msg</p>
+    }
+
+    <div class="link">
+        <a href="/login">¿Ya estás registrado? Inicia sesión</a>
+    </div>
+</div>
+
+@code {
+    private UserDto usuario = new();
+    private string? msg;
+
+    private async Task HandleRegister()
+    {
+        var success = await ApiService.Register(usuario);
+        if (!success)
+        {
+            msg = "El nombre de usuario ya existe.";
+            return;
+        }
+
+        var token = await ApiService.Login(usuario);
+        if (token is not null)
+        {
+            Nav.NavigateTo("/home");
+        }
+        else
+        {
+            msg = "Registrado, pero no se pudo iniciar sesión automáticamente. Por favor, inicia sesión.";
+            Nav.NavigateTo("/login");
+        }
+    }
+}
