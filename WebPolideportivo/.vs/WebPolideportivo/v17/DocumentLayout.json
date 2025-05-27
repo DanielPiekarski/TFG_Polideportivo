@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg_polideportivo\\webpolideportivo\\webpolideportivo\\pages\\pistadetalles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\pages\\pistadetalles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg_polideportivo\\webpolideportivo\\webpolideportivo\\pages\\reservar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\pages\\reservar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PistaDetalles.razor",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\PistaDetalles.razor",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Pages\\PistaDetalles.razor",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\PistaDetalles.razor",
+              "RelativeToolTip": "WebPolideportivo\\Pages\\PistaDetalles.razor",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T22:13:07.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Reservar.razor",
               "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\Reservar.razor",
               "RelativeDocumentMoniker": "WebPolideportivo\\Pages\\Reservar.razor",
               "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\Reservar.razor",
               "RelativeToolTip": "WebPolideportivo\\Pages\\Reservar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-21T17:12:17.817Z",
               "EditorCaption": ""
