@@ -103,12 +103,6 @@ public class ApiService
         response.EnsureSuccessStatusCode();
     }
 
-    public async Task<bool> Register(UserDto usuario)
-    {
-        var response = await _http.PostAsJsonAsync("http://localhost:8000/auth/register", usuario);
-        return response.IsSuccessStatusCode;
-    }
-
     public async Task<TokenDto?> Login(UserDto usuario)
     {
         var dict = new Dictionary<string, string>
@@ -131,6 +125,12 @@ public class ApiService
         }
 
         return null;
+    }
+
+    public async Task<bool> Register(UserDto usuario)
+    {
+        var response = await _http.PostAsJsonAsync("http://localhost:8000/auth/register", usuario);
+        return response.IsSuccessStatusCode;
     }
 }
 

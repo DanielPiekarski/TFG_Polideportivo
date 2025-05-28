@@ -1,19 +1,51 @@
 ﻿@page "/perfil"
 <RequireAuth />
+@inject AuthService Auth
 
 <h3>Mi perfil</h3>
 
-<div>
-    <p><strong>Nombre:</strong> Juan Pérez</p>
-    <p><strong>Email:</strong> juan@example.com</p>
-    <p><strong>Rol:</strong> Usuario</p>
-</div>
+@if (usuario != null)
+{
+    <div>
+        <p><strong>Nombre:</strong> @usuario.Nombre</p>
 
-<button class="btn btn-primary" @onclick="EditarPerfil">Editar perfil</button>
+        <p>
+            <strong>Contraseña:</strong>
+            <span style="font-family: monospace;">
+                @(mostrarContraseña? usuario.Contraseña: new string('•', 8))
+            </span>
+            <button type="button" @onclick="() => mostrarContraseña = !mostrarContraseña" style="background: none; border: none; cursor: pointer; margin-left: 8px; vertical-align: middle;">
+                @if (mostrarContraseña)
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M2.5 1.5l19 19-1.5 1.5-3.2-3.2A9.916 9.916 0 0 1 12 20c-7 0-10-7-10-7a15.02 15.02 0 0 1 4.1-5.4L1 2.5 2.5 1.5zm5.54 5.54L9.5 8.5a3 3 0 0 0 4 4l1.46 1.46A6.457 6.457 0 0 1 12 15.5a6.5 6.5 0 0 1-6.48-6.46zm10.18 10.18l-1.42-1.42A9.945 9.945 0 0 0 22 12s-3-7-10-7c-1.92 0-3.68.56-5.15 1.53l1.49 1.49a6.443 6.443 0 0 1 8.63 8.63l1.41 1.41z" />
+                    </svg>
+                }
+                else
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7Zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" />
+                    </svg>
+                }
+            </button>
+        </p>
+    </div>
+
+    <button class="btn btn-primary" @onclick="EditarPerfil">Editar perfil</button>
+}
 
 @code {
+    private UserDto? usuario;
+
+    bool mostrarContraseña = false;
+
+    protected override void OnInitialized()
+    {
+        usuario = Auth.Usuario;
+    }
+
     private void EditarPerfil()
     {
-        Console.WriteLine("Ir a editar perfil...");
+        
     }
 }
