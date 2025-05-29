@@ -57,8 +57,28 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Foto-Polideportivo-Satelite.png",
-      "PackagePath": "staticwebassets\\images\\Foto-Polideportivo-Satelite.png"
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoRojo.png",
+      "PackagePath": "staticwebassets\\images\\CuadradoRojo.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoVerde.png",
+      "PackagePath": "staticwebassets\\images\\CuadradoVerde.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Pista-Padel-Suelta.png",
+      "PackagePath": "staticwebassets\\images\\Pista-Padel-Suelta.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Lineas.png",
+      "PackagePath": "staticwebassets\\images\\Polideportivo-Lineas.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Oscuro.png",
+      "PackagePath": "staticwebassets\\images\\Polideportivo-Oscuro.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo.png",
+      "PackagePath": "staticwebassets\\images\\Polideportivo.png"
     },
     {
       "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png",

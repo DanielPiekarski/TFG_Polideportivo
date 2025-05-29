@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dpiekarski\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Nitropc\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
+      "projectUniqueName": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
       "projectName": "WebPolideportivo",
-      "projectPath": "C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
-      "packagesPath": "C:\\Users\\dpiekarski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\",
+      "projectPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\WebPolideportivo.csproj",
+      "packagesPath": "C:\\Users\\Nitropc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dpiekarski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nitropc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -75,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

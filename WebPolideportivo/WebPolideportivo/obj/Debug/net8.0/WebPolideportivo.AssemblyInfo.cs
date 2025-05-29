@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebPolideportivo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c4fc5fd73a13991bc8412e6448ae1c1779debc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+146e72f4bb392c2f705a983b782a268e284595d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebPolideportivo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebPolideportivo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

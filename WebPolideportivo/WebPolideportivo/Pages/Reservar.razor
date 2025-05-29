@@ -4,7 +4,7 @@
 @using WebPolideportivo.Models
 @using WebPolideportivo.Services
 @inject ApiService ApiService
-@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
 
 <PageTitle>Reservar</PageTitle>
 
@@ -46,50 +46,94 @@
             </InputSelect>
         </div>
         <div class="col-md-2 d-flex align-items-end">
-            <button class="btn btn-primary w-100" @onclick="BuscarDisponibles">Buscar</button>
+            <button class="btn btn-primary w-100" @onclick="BuscarDisponibles" disabled="@cargando">Buscar</button>
         </div>
     </div>
 </div>
 
-@if (!string.IsNullOrEmpty(mensajeError))
+<div class="mt-3">
+    <button class="btn btn-outline-secondary" @onclick="ToggleMapa">
+        @(mostrarMapa ? "Ocultar" : "Mostrar") mapa de pistas
+    </button>
+</div>
+
+@if (mostrarMapa)
 {
-    <div class="alert alert-danger">@mensajeError</div>
-}
-else if (pistasFiltradas == null)
-{
-    <p><em>Seleccione los filtros para buscar pistas disponibles.</em></p>
-}
-else if (pistasFiltradas.Count == 0)
-{
-    <p><strong>No hay pistas disponibles en ese horario.</strong></p>
+    <br />
+    <div style="position: relative; width: 800px; height: 600px;">
+        <img src="images/Polideportivo-Lineas.png" style="width: 100%; height: 100%;" />
+
+        @foreach (var pistaPos in PistasPosiciones)
+        {
+            bool disponible = false;
+            if (disponibilidadMapa.TryGetValue(pistaPos.Id, out var d))
+            {
+                disponible = d;
+            }
+
+            var imagen = disponible ? "images/CuadradoVerde.png" : "images/CuadradoRojo.png";
+            var cursorStyle = disponible ? "pointer" : "default";
+
+            if (disponible)
+            {
+                <img src="@imagen"
+                     style="position: absolute; top: @pistaPos.Top; left: @pistaPos.Left; width: @pistaPos.Width; height: @pistaPos.Height; cursor: @cursorStyle;"
+                     @onclick="() => IrAReserva(pistaPos.Id)" />
+            }
+            else
+            {
+                <img src="@imagen"
+                     style="position: absolute; top: @pistaPos.Top; left: @pistaPos.Left; width: @pistaPos.Width; height: @pistaPos.Height; cursor: @cursorStyle;" />
+            }
+        }
+    </div>
 }
 else
 {
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
-        @foreach (var pista in pistasFiltradas)
-        {
-            var precioTotal = pista.PrecioPorHora * HorasReservadas;
-            <div class="col">
-                <a href="@($"/pista/{pista.Id}?fecha={fechaConfirmada:yyyy-MM-dd}&horaInicio={horaInicioConfirmada}&horaFin={horaFinConfirmada}")" class="text-decoration-none text-dark">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">@pista.Nombre</h5>
-                            <p class="card-text">
-                                Tipo: <strong>@pista.Tipo</strong><br />
-                                Precio: <strong>@(pista.PrecioPorHora.ToString("F2")) € / hora</strong>
-                            </p>
-                            <p class="card-text">
-                                Reservando: @HorasReservadas hora(s) (@RangoHoras)
-                            </p>
-                            <p class="card-text">
-                                <strong>Total: @(precioTotal.ToString("F2")) €</strong>
-                            </p>
+    @if (cargando)
+    {
+        <div class="mt-3"><em>Cargando disponibilidad...</em></div>
+    }
+    else if (!string.IsNullOrEmpty(mensajeError))
+    {
+        <div class="alert alert-danger mt-3">@mensajeError</div>
+    }
+    else if (pistasFiltradas == null)
+    {
+        <p class="mt-3"><em>Seleccione los filtros para buscar pistas disponibles.</em></p>
+    }
+    else if (pistasFiltradas.Count == 0)
+    {
+        <p class="mt-3"><strong>No hay pistas disponibles en ese horario.</strong></p>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            @foreach (var pista in pistasFiltradas)
+            {
+                var precioTotal = pista.PrecioPorHora * HorasReservadas;
+                <div class="col">
+                    <a href="@($"/pista/{pista.Id}?fecha={fechaConfirmada:yyyy-MM-dd}&horaInicio={horaInicioConfirmada}&horaFin={horaFinConfirmada}")" class="text-decoration-none text-dark">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">@pista.Nombre</h5>
+                                <p class="card-text">
+                                    Tipo: <strong>@pista.Tipo</strong><br />
+                                    Precio: <strong>@($"{pista.PrecioPorHora:F2}") € / hora</strong>
+                                </p>
+                                <p class="card-text">
+                                    Reservando: @HorasReservadas hora(s) (@RangoHoras)
+                                </p>
+                                <p class="card-text">
+                                    <strong>Total: @($"{precioTotal:F2}") €</strong>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-        }
-    </div>
+                    </a>
+                </div>
+            }
+        </div>
+    }
 }
 
 @code {
@@ -113,8 +157,36 @@ else
     DateTime datetoMin = DateTime.Now;
     DateTime datetoMax = DateTime.Now.AddYears(1);
 
+    private bool mostrarMapa = false;
+    private bool cargando = false;
+
     private int HorasReservadas => Math.Max(0, TimeSpan.Parse(horaFinConfirmada).Hours - TimeSpan.Parse(horaInicioConfirmada).Hours);
     private string RangoHoras => $"{horaInicioConfirmada} - {horaFinConfirmada}";
+
+    private Dictionary<int, bool> disponibilidadMapa = new();
+
+    private List<PosicionPista> PistasPosiciones = new()
+    {
+        new() { Id = 1, Top = "14px", Left = "21px", Width = "100px", Height = "192px" },
+        new() { Id = 2, Top = "14px", Left = "125.5px", Width = "101px", Height = "192px" },
+        new() { Id = 3, Top = "210px", Left = "21px", Width = "100px", Height = "189px" },
+        new() { Id = 4, Top = "210px", Left = "125.5px", Width = "101px", Height = "189px" },
+        new() { Id = 5, Top = "403px", Left = "21px", Width = "100px", Height = "190px" },
+        new() { Id = 6, Top = "403px", Left = "125.5px", Width = "101px", Height = "190px" },
+        //----------------------------------------------------------------------------------
+        new() { Id = 7, Top = "58px", Left = "264px", Width = "59.5px", Height = "110px" },
+        new() { Id = 8, Top = "58px", Left = "328px", Width = "58px", Height = "110px" },
+        new() { Id = 9, Top = "172px", Left = "264px", Width = "59.5px", Height = "107px" },
+        new() { Id = 10, Top = "172px", Left = "328px", Width = "58px", Height = "107px" },
+        //----------------------------------------------------------------------------------
+        new() { Id = 11, Top = "332.5px", Left = "262.5px", Width = "59.5px", Height = "110px" },
+        new() { Id = 12, Top = "332.5px", Left = "326.5px", Width = "58.5px", Height = "110px" },
+        new() { Id = 13, Top = "446px", Left = "262.5px", Width = "59.5px", Height = "107px" },
+        new() { Id = 14, Top = "446px", Left = "326.5px", Width = "58.5px", Height = "107px" },
+        //----------------------------------------------------------------------------------
+        new() { Id = 15, Top = "18px", Left = "425px", Width = "364px", Height = "203px" },
+        new() { Id = 16, Top = "225px", Left = "425px", Width = "364px", Height = "201.5px" }
+    };
 
     protected override async Task OnInitializedAsync()
     {
@@ -124,6 +196,8 @@ else
     private async Task BuscarDisponibles()
     {
         pistasFiltradas = null;
+        mensajeError = null;
+        disponibilidadMapa.Clear();
 
         var inicioHora = TimeSpan.Parse(horaInicio).Hours;
         var finHora = TimeSpan.Parse(horaFin).Hours;
@@ -136,12 +210,14 @@ else
 
         if (pistas is null) return;
 
-        mensajeError = null;
-        pistasFiltradas = new();
+        cargando = true;
+        StateHasChanged();
 
         horaInicioConfirmada = horaInicio;
         horaFinConfirmada = horaFin;
         fechaConfirmada = fechaSeleccionada;
+
+        pistasFiltradas = new();
 
         foreach (var pista in pistas)
         {
@@ -154,10 +230,36 @@ else
                                             .Select(h => fechaConfirmada.Date.AddHours(h))
                                             .ToList();
 
-            if (horasNecesarias.All(h => disponibilidad.Contains(h)))
+            bool disponible = horasNecesarias.All(h => disponibilidad.Contains(h));
+
+            disponibilidadMapa[pista.Id] = disponible;
+
+            if (disponible)
             {
                 pistasFiltradas.Add(pista);
             }
         }
+
+        cargando = false;
+    }
+
+    private void MostrarMapa()
+    {
+        mostrarMapa = !mostrarMapa;
+    }
+
+    private async Task ToggleMapa()
+    {
+        if (!mostrarMapa)
+        {
+            await BuscarDisponibles();
+        }
+        mostrarMapa = !mostrarMapa;
+    }
+
+    private void IrAReserva(int pistaId)
+    {
+        var url = $"/pista/{pistaId}?fecha={fechaSeleccionada:yyyy-MM-dd}&horaInicio={horaInicio}&horaFin={horaFin}";
+        NavigationManager.NavigateTo(url);
     }
 }

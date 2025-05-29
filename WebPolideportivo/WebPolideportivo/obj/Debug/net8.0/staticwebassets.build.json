@@ -1,1 +1,3833 @@
-{"Version":1,"Hash":"Wvq7bSMuxYsJbqTaff6jtiQL0qS4B4iar59ZGKWijVE=","Source":"WebPolideportivo","BasePath":"_content/WebPolideportivo","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"WebPolideportivo\\wwwroot","Source":"WebPolideportivo","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","Pattern":"**"}],"Assets":[{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css","SourceId":"WebPolideportivo","SourceType":"Computed","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\","BasePath":"_content/WebPolideportivo","RelativePath":"WebPolideportivo#[.{fingerprint}]?.styles.css","AssetKind":"All","AssetMode":"CurrentProject","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"ScopedCss","AssetTraitValue":"ApplicationBundle","Fingerprint":"7l1kxtjsbr","Integrity":"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css","FileLength":5812,"LastWriteTime":"2025-05-28T09:58:23+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css","SourceId":"WebPolideportivo","SourceType":"Computed","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\","BasePath":"_content/WebPolideportivo","RelativePath":"WebPolideportivo#[.{fingerprint}]!.bundle.scp.css","AssetKind":"All","AssetMode":"Reference","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"ScopedCss","AssetTraitValue":"ProjectBundle","Fingerprint":"7l1kxtjsbr","Integrity":"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css","FileLength":5812,"LastWriteTime":"2025-05-28T09:58:23+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/bootstrap/bootstrap.min#[.{fingerprint}]?.css","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"6gzpyzhau4","Integrity":"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\bootstrap\\bootstrap.min.css","FileLength":162726,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"8inm30yfxf","Integrity":"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\bootstrap\\bootstrap.min.css.map","FileLength":449111,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"cmapd0fi15","Integrity":"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css","FileLength":9395,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"0uw8dim9nl","Integrity":"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot","FileLength":28196,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"wk8x8xm0ah","Integrity":"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf","FileLength":20996,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"sjnzgf7e1h","Integrity":"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg","FileLength":55332,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"ll5grcv8wv","Integrity":"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf","FileLength":28028,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"h4d0pazwgy","Integrity":"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff","FileLength":14984,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\FONT-LICENSE","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/FONT-LICENSE#[.{fingerprint}]?","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"48tmkg660f","Integrity":"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\FONT-LICENSE","FileLength":4103,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\ICON-LICENSE","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/ICON-LICENSE#[.{fingerprint}]?","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"4dwjve0o0b","Integrity":"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\ICON-LICENSE","FileLength":1093,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\README.md","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/open-iconic/README#[.{fingerprint}]?.md","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"5bzwdl5l6x","Integrity":"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\open-iconic\\README.md","FileLength":3655,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\site.css","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"css/site#[.{fingerprint}]?.css","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"zh9s866nx2","Integrity":"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\site.css","FileLength":2978,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"favicon#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"ifv42okdf2","Integrity":"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\favicon.png","FileLength":1148,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Foto-Polideportivo-Satelite.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/Foto-Polideportivo-Satelite#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"3ob6j4qig2","Integrity":"bdx5whzSMj7keERXX+IsqcZ9xQ1T/K4HJAURR2PE8qE=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\Foto-Polideportivo-Satelite.png","FileLength":1027064,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-1#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"sl0pzcccyb","Integrity":"sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-1.png","FileLength":942346,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-10.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-10#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"8njm8xvbfw","Integrity":"9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-10.png","FileLength":933956,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-11.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-11#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"tpvmqe7ymw","Integrity":"EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-11.png","FileLength":934722,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-12.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-12#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"cjf0m5dk5w","Integrity":"WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-12.png","FileLength":935048,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-13.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-13#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"bl1ni585nc","Integrity":"z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-13.png","FileLength":934844,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-14.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-14#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"3i34frfncv","Integrity":"u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-14.png","FileLength":934506,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-15.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-15#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"rgyvrdkprb","Integrity":"O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-15.png","FileLength":930587,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-16.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-16#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"y6mb5h4ow2","Integrity":"Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-16.png","FileLength":951198,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-2.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-2#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"jzd01jhud2","Integrity":"z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-2.png","FileLength":946643,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-3.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-3#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"5h2efr70u6","Integrity":"CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-3.png","FileLength":945164,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-4.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-4#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"9ivl01f2tp","Integrity":"P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-4.png","FileLength":945690,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-5.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-5#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"j6zpuwctrg","Integrity":"W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-5.png","FileLength":946756,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-6.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-6#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"jduy29kze2","Integrity":"R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-6.png","FileLength":941376,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-7.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-7#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"7wuqae2vh7","Integrity":"50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-7.png","FileLength":934532,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-8.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-8#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"kj48gjpmts","Integrity":"ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-8.png","FileLength":933509,"LastWriteTime":"2025-05-28T08:50:26+00:00"},{"Identity":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-9.png","SourceId":"WebPolideportivo","SourceType":"Discovered","ContentRoot":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\","BasePath":"_content/WebPolideportivo","RelativePath":"images/pista-9#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"ar76rb0bfa","Integrity":"OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\images\\pista-9.png","FileLength":935659,"LastWriteTime":"2025-05-28T08:50:26+00:00"}],"Endpoints":[{"Route":"css/bootstrap/bootstrap.min.6gzpyzhau4.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"162726"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"6gzpyzhau4"},{"Name":"label","Value":"css/bootstrap/bootstrap.min.css"},{"Name":"integrity","Value":"sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="}]},{"Route":"css/bootstrap/bootstrap.min.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"162726"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="}]},{"Route":"css/bootstrap/bootstrap.min.css.8inm30yfxf.map","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"449111"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"8inm30yfxf"},{"Name":"label","Value":"css/bootstrap/bootstrap.min.css.map"},{"Name":"integrity","Value":"sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="}]},{"Route":"css/bootstrap/bootstrap.min.css.map","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"449111"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="}]},{"Route":"css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9395"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"cmapd0fi15"},{"Name":"label","Value":"css/open-iconic/font/css/open-iconic-bootstrap.min.css"},{"Name":"integrity","Value":"sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="}]},{"Route":"css/open-iconic/font/css/open-iconic-bootstrap.min.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9395"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"28196"},{"Name":"Content-Type","Value":"application/vnd.ms-fontobject"},{"Name":"ETag","Value":"\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"0uw8dim9nl"},{"Name":"label","Value":"css/open-iconic/font/fonts/open-iconic.eot"},{"Name":"integrity","Value":"sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.eot","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"28196"},{"Name":"Content-Type","Value":"application/vnd.ms-fontobject"},{"Name":"ETag","Value":"\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"14984"},{"Name":"Content-Type","Value":"application/font-woff"},{"Name":"ETag","Value":"\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"h4d0pazwgy"},{"Name":"label","Value":"css/open-iconic/font/fonts/open-iconic.woff"},{"Name":"integrity","Value":"sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"28028"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"ll5grcv8wv"},{"Name":"label","Value":"css/open-iconic/font/fonts/open-iconic.ttf"},{"Name":"integrity","Value":"sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.otf","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"20996"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"55332"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"sjnzgf7e1h"},{"Name":"label","Value":"css/open-iconic/font/fonts/open-iconic.svg"},{"Name":"integrity","Value":"sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.svg","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"55332"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.ttf","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"28028"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"20996"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"wk8x8xm0ah"},{"Name":"label","Value":"css/open-iconic/font/fonts/open-iconic.otf"},{"Name":"integrity","Value":"sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="}]},{"Route":"css/open-iconic/font/fonts/open-iconic.woff","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"14984"},{"Name":"Content-Type","Value":"application/font-woff"},{"Name":"ETag","Value":"\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="}]},{"Route":"css/open-iconic/FONT-LICENSE","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\FONT-LICENSE","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"4103"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="}]},{"Route":"css/open-iconic/FONT-LICENSE.48tmkg660f","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\FONT-LICENSE","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"4103"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"48tmkg660f"},{"Name":"label","Value":"css/open-iconic/FONT-LICENSE"},{"Name":"integrity","Value":"sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="}]},{"Route":"css/open-iconic/ICON-LICENSE","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\ICON-LICENSE","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1093"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="}]},{"Route":"css/open-iconic/ICON-LICENSE.4dwjve0o0b","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\ICON-LICENSE","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1093"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"4dwjve0o0b"},{"Name":"label","Value":"css/open-iconic/ICON-LICENSE"},{"Name":"integrity","Value":"sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="}]},{"Route":"css/open-iconic/README.5bzwdl5l6x.md","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\README.md","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3655"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"5bzwdl5l6x"},{"Name":"label","Value":"css/open-iconic/README.md"},{"Name":"integrity","Value":"sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="}]},{"Route":"css/open-iconic/README.md","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\README.md","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3655"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="}]},{"Route":"css/site.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\site.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"2978"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="}]},{"Route":"css/site.zh9s866nx2.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\site.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"2978"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"zh9s866nx2"},{"Name":"label","Value":"css/site.css"},{"Name":"integrity","Value":"sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="}]},{"Route":"favicon.ifv42okdf2.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"ifv42okdf2"},{"Name":"label","Value":"favicon.png"},{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]},{"Route":"favicon.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]},{"Route":"images/Foto-Polideportivo-Satelite.3ob6j4qig2.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Foto-Polideportivo-Satelite.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1027064"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"bdx5whzSMj7keERXX+IsqcZ9xQ1T/K4HJAURR2PE8qE=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"3ob6j4qig2"},{"Name":"label","Value":"images/Foto-Polideportivo-Satelite.png"},{"Name":"integrity","Value":"sha256-bdx5whzSMj7keERXX+IsqcZ9xQ1T/K4HJAURR2PE8qE="}]},{"Route":"images/Foto-Polideportivo-Satelite.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Foto-Polideportivo-Satelite.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1027064"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"bdx5whzSMj7keERXX+IsqcZ9xQ1T/K4HJAURR2PE8qE=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-bdx5whzSMj7keERXX+IsqcZ9xQ1T/K4HJAURR2PE8qE="}]},{"Route":"images/pista-1.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"942346"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY="}]},{"Route":"images/pista-1.sl0pzcccyb.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"942346"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"sl0pzcccyb"},{"Name":"label","Value":"images/pista-1.png"},{"Name":"integrity","Value":"sha256-sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY="}]},{"Route":"images/pista-10.8njm8xvbfw.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-10.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"933956"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"8njm8xvbfw"},{"Name":"label","Value":"images/pista-10.png"},{"Name":"integrity","Value":"sha256-9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E="}]},{"Route":"images/pista-10.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-10.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"933956"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E="}]},{"Route":"images/pista-11.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-11.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934722"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI="}]},{"Route":"images/pista-11.tpvmqe7ymw.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-11.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934722"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"tpvmqe7ymw"},{"Name":"label","Value":"images/pista-11.png"},{"Name":"integrity","Value":"sha256-EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI="}]},{"Route":"images/pista-12.cjf0m5dk5w.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-12.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"935048"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"cjf0m5dk5w"},{"Name":"label","Value":"images/pista-12.png"},{"Name":"integrity","Value":"sha256-WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s="}]},{"Route":"images/pista-12.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-12.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"935048"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s="}]},{"Route":"images/pista-13.bl1ni585nc.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-13.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934844"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"bl1ni585nc"},{"Name":"label","Value":"images/pista-13.png"},{"Name":"integrity","Value":"sha256-z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As="}]},{"Route":"images/pista-13.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-13.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934844"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As="}]},{"Route":"images/pista-14.3i34frfncv.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-14.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934506"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"3i34frfncv"},{"Name":"label","Value":"images/pista-14.png"},{"Name":"integrity","Value":"sha256-u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk="}]},{"Route":"images/pista-14.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-14.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934506"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk="}]},{"Route":"images/pista-15.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-15.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"930587"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY="}]},{"Route":"images/pista-15.rgyvrdkprb.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-15.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"930587"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"rgyvrdkprb"},{"Name":"label","Value":"images/pista-15.png"},{"Name":"integrity","Value":"sha256-O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY="}]},{"Route":"images/pista-16.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-16.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"951198"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM="}]},{"Route":"images/pista-16.y6mb5h4ow2.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-16.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"951198"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"y6mb5h4ow2"},{"Name":"label","Value":"images/pista-16.png"},{"Name":"integrity","Value":"sha256-Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM="}]},{"Route":"images/pista-2.jzd01jhud2.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-2.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"946643"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"jzd01jhud2"},{"Name":"label","Value":"images/pista-2.png"},{"Name":"integrity","Value":"sha256-z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc="}]},{"Route":"images/pista-2.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-2.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"946643"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc="}]},{"Route":"images/pista-3.5h2efr70u6.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-3.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"945164"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"5h2efr70u6"},{"Name":"label","Value":"images/pista-3.png"},{"Name":"integrity","Value":"sha256-CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A="}]},{"Route":"images/pista-3.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-3.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"945164"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A="}]},{"Route":"images/pista-4.9ivl01f2tp.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-4.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"945690"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"9ivl01f2tp"},{"Name":"label","Value":"images/pista-4.png"},{"Name":"integrity","Value":"sha256-P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc="}]},{"Route":"images/pista-4.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-4.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"945690"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc="}]},{"Route":"images/pista-5.j6zpuwctrg.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-5.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"946756"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"j6zpuwctrg"},{"Name":"label","Value":"images/pista-5.png"},{"Name":"integrity","Value":"sha256-W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8="}]},{"Route":"images/pista-5.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-5.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"946756"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8="}]},{"Route":"images/pista-6.jduy29kze2.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-6.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"941376"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"jduy29kze2"},{"Name":"label","Value":"images/pista-6.png"},{"Name":"integrity","Value":"sha256-R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0="}]},{"Route":"images/pista-6.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-6.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"941376"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0="}]},{"Route":"images/pista-7.7wuqae2vh7.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-7.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934532"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"7wuqae2vh7"},{"Name":"label","Value":"images/pista-7.png"},{"Name":"integrity","Value":"sha256-50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E="}]},{"Route":"images/pista-7.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-7.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"934532"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E="}]},{"Route":"images/pista-8.kj48gjpmts.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-8.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"933509"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"kj48gjpmts"},{"Name":"label","Value":"images/pista-8.png"},{"Name":"integrity","Value":"sha256-ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno="}]},{"Route":"images/pista-8.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-8.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"933509"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno="}]},{"Route":"images/pista-9.ar76rb0bfa.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-9.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"935659"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"ar76rb0bfa"},{"Name":"label","Value":"images/pista-9.png"},{"Name":"integrity","Value":"sha256-OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg="}]},{"Route":"images/pista-9.png","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-9.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"935659"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 08:50:26 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg="}]},{"Route":"WebPolideportivo.7l1kxtjsbr.bundle.scp.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"5812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 09:58:23 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"7l1kxtjsbr"},{"Name":"label","Value":"WebPolideportivo.bundle.scp.css"},{"Name":"integrity","Value":"sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="}]},{"Route":"WebPolideportivo.7l1kxtjsbr.styles.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"5812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 09:58:23 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"7l1kxtjsbr"},{"Name":"label","Value":"WebPolideportivo.styles.css"},{"Name":"integrity","Value":"sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="}]},{"Route":"WebPolideportivo.bundle.scp.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"5812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 09:58:23 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="}]},{"Route":"WebPolideportivo.styles.css","AssetFile":"C:\\Users\\dpiekarski\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"5812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 09:58:23 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="}]}]}
+{
+  "Version": 1,
+  "Hash": "20XDXEAMSTZBTB/+IDSYpzuunkp0nRJMxKKPEKFvZp8=",
+  "Source": "WebPolideportivo",
+  "BasePath": "_content/WebPolideportivo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebPolideportivo\\wwwroot",
+      "Source": "WebPolideportivo",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "WebPolideportivo#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "7l1kxtjsbr",
+      "Integrity": "9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "WebPolideportivo#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "7l1kxtjsbr",
+      "Integrity": "9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjnzgf7e1h",
+      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48tmkg660f",
+      "Integrity": "jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dwjve0o0b",
+      "Integrity": "aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bzwdl5l6x",
+      "Integrity": "waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\site.css",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zh9s866nx2",
+      "Integrity": "Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoRojo.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/CuadradoRojo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfx4fhik8e",
+      "Integrity": "xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CuadradoRojo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoVerde.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/CuadradoVerde#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jrhblebq6g",
+      "Integrity": "r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CuadradoVerde.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sl0pzcccyb",
+      "Integrity": "sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-10.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-10#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8njm8xvbfw",
+      "Integrity": "9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-10.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-11.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-11#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tpvmqe7ymw",
+      "Integrity": "EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-11.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-12.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-12#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cjf0m5dk5w",
+      "Integrity": "WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-12.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-13.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-13#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bl1ni585nc",
+      "Integrity": "z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-13.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-14.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-14#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3i34frfncv",
+      "Integrity": "u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-14.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-15.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-15#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rgyvrdkprb",
+      "Integrity": "O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-15.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-16.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-16#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y6mb5h4ow2",
+      "Integrity": "Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-16.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-2.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzd01jhud2",
+      "Integrity": "z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-3.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5h2efr70u6",
+      "Integrity": "CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-4.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ivl01f2tp",
+      "Integrity": "P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-4.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-5.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6zpuwctrg",
+      "Integrity": "W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-5.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-6.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jduy29kze2",
+      "Integrity": "R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-6.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-7.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7wuqae2vh7",
+      "Integrity": "50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-7.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-8.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kj48gjpmts",
+      "Integrity": "ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-8.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-9.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/pista-9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ar76rb0bfa",
+      "Integrity": "OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pista-9.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Pista-Padel-Suelta.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/Pista-Padel-Suelta#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2oplbfnuel",
+      "Integrity": "MuxQ9qFCy25NlxWtRp9TdnRbm1qo00SlWTX/W3FHr54=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pista-Padel-Suelta.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/Polideportivo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lte6hiwsjq",
+      "Integrity": "icnTW8omsVpB3AvfnVh5uSdTlWPAg6b7UEimvvZDvLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Polideportivo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Lineas.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/Polideportivo-Lineas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kfak1qwh8y",
+      "Integrity": "MAX/z6tGjp+vsbhObjYMb876pP3EFsIgA7svwLbNz+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Polideportivo-Lineas.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Oscuro.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/Polideportivo-Oscuro#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6b0oqkehrr",
+      "Integrity": "kmG88NWN5MkrGIzmMxozW6ZUaTdCzNXi2n90i2D9ftU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Polideportivo-Oscuro.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjnzgf7e1h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48tmkg660f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dwjve0o0b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.5bzwdl5l6x.md",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bzwdl5l6x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zh9s866nx2.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh9s866nx2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/CuadradoRojo.dfx4fhik8e.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoRojo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 11:46:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfx4fhik8e"
+        },
+        {
+          "Name": "label",
+          "Value": "images/CuadradoRojo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/CuadradoRojo.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoRojo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 11:46:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/CuadradoVerde.jrhblebq6g.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoVerde.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 10:37:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jrhblebq6g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/CuadradoVerde.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc="
+        }
+      ]
+    },
+    {
+      "Route": "images/CuadradoVerde.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoVerde.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 10:37:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-1.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "942346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-1.sl0pzcccyb.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "942346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sl0pzcccyb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sL0vWXD9dyeMSJPA9fzWLxd4bDPsZ0H5l/N3aEvhbtY="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-10.8njm8xvbfw.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "933956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8njm8xvbfw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-10.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-10.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "933956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Ojqr9SlU8sRdVCJL6992gFkD0kfQvpVbbp6QLiLj1E="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-11.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-11.tpvmqe7ymw.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpvmqe7ymw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-11.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EYzDV6lxVvxrgBxelAjSzYFZipNckOB6b9G2iXVw5pI="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-12.cjf0m5dk5w.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjf0m5dk5w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-12.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-12.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNewi8LxBXmUcbHCsIKsBJNu+AL/TZ+TX2B0H/xkb0s="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-13.bl1ni585nc.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bl1ni585nc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-13.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-13.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z61Z4o9h0g4QAOLbTHFqpMVK5UNMc2WKCiQdI1r33As="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-14.3i34frfncv.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-14.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3i34frfncv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-14.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-14.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-14.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u1VUImej2SFUNBkGHtDZvuonLC/lvtLBpSod+zFognk="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-15.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-15.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "930587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-15.rgyvrdkprb.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-15.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "930587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rgyvrdkprb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-15.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4/dy5vPuypD4HhwuU4cX8M2WGz2HVYI69Ap6ijn7DY="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-16.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-16.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "951198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-16.y6mb5h4ow2.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-16.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "951198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y6mb5h4ow2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-16.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Go4nokWM3uostOVyG/FMTCA8lSVX4aSLYYb8dPCl/OM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-2.jzd01jhud2.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "946643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzd01jhud2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-2.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "946643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z6PEcheg1ShGQL9ByPgK/51vo7S9Dn96OAADOek/Fsc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-3.5h2efr70u6.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5h2efr70u6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-3.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CS9ZfUvDCkNFEvhVxJwKxH9Tf3QBmlVvOOaep1Jd32A="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-4.9ivl01f2tp.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ivl01f2tp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-4.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1mmG/4oRTqZEG0ziq2kncToTXDnnbwR8i/OdvdWtzc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-5.j6zpuwctrg.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "946756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6zpuwctrg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-5.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "946756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W9z04ej65dsolI75+zRzEMEewLCM8Qh0YVQuRaI4PZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-6.jduy29kze2.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "941376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jduy29kze2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-6.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "941376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R9Sx15vpqq1BD5rthMCt4M1OJ88f1DpbfPzhoh2RGS0="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-7.7wuqae2vh7.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wuqae2vh7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-7.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-50DNHoOyZOhaI3l5dEBH7H4b32l2GToQdYDpdaQJc+E="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-8.kj48gjpmts.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "933509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kj48gjpmts"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-8.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "933509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ABVJtn/E++cZRt+f6yQut8cTCkLNEuKDsSw6xPL4Uno="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-9.ar76rb0bfa.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ar76rb0bfa"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pista-9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg="
+        }
+      ]
+    },
+    {
+      "Route": "images/pista-9.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OszuVHHrco3KksamkG5pOy09ofqCZ4WowoGU41iHJDg="
+        }
+      ]
+    },
+    {
+      "Route": "images/Pista-Padel-Suelta.2oplbfnuel.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Pista-Padel-Suelta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MuxQ9qFCy25NlxWtRp9TdnRbm1qo00SlWTX/W3FHr54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2oplbfnuel"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Pista-Padel-Suelta.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MuxQ9qFCy25NlxWtRp9TdnRbm1qo00SlWTX/W3FHr54="
+        }
+      ]
+    },
+    {
+      "Route": "images/Pista-Padel-Suelta.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Pista-Padel-Suelta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MuxQ9qFCy25NlxWtRp9TdnRbm1qo00SlWTX/W3FHr54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MuxQ9qFCy25NlxWtRp9TdnRbm1qo00SlWTX/W3FHr54="
+        }
+      ]
+    },
+    {
+      "Route": "images/Polideportivo.lte6hiwsjq.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1027064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"icnTW8omsVpB3AvfnVh5uSdTlWPAg6b7UEimvvZDvLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 11:34:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lte6hiwsjq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Polideportivo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-icnTW8omsVpB3AvfnVh5uSdTlWPAg6b7UEimvvZDvLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/Polideportivo.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1027064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"icnTW8omsVpB3AvfnVh5uSdTlWPAg6b7UEimvvZDvLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 11:34:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-icnTW8omsVpB3AvfnVh5uSdTlWPAg6b7UEimvvZDvLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/Polideportivo-Lineas.kfak1qwh8y.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Lineas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "958751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MAX/z6tGjp+vsbhObjYMb876pP3EFsIgA7svwLbNz+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 11:33:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kfak1qwh8y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Polideportivo-Lineas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MAX/z6tGjp+vsbhObjYMb876pP3EFsIgA7svwLbNz+U="
+        }
+      ]
+    },
+    {
+      "Route": "images/Polideportivo-Lineas.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Lineas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "958751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MAX/z6tGjp+vsbhObjYMb876pP3EFsIgA7svwLbNz+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 11:33:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MAX/z6tGjp+vsbhObjYMb876pP3EFsIgA7svwLbNz+U="
+        }
+      ]
+    },
+    {
+      "Route": "images/Polideportivo-Oscuro.6b0oqkehrr.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Oscuro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "932111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmG88NWN5MkrGIzmMxozW6ZUaTdCzNXi2n90i2D9ftU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6b0oqkehrr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Polideportivo-Oscuro.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmG88NWN5MkrGIzmMxozW6ZUaTdCzNXi2n90i2D9ftU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Polideportivo-Oscuro.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Polideportivo-Oscuro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "932111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmG88NWN5MkrGIzmMxozW6ZUaTdCzNXi2n90i2D9ftU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmG88NWN5MkrGIzmMxozW6ZUaTdCzNXi2n90i2D9ftU="
+        }
+      ]
+    },
+    {
+      "Route": "WebPolideportivo.7l1kxtjsbr.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7l1kxtjsbr"
+        },
+        {
+          "Name": "label",
+          "Value": "WebPolideportivo.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
+        }
+      ]
+    },
+    {
+      "Route": "WebPolideportivo.7l1kxtjsbr.styles.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7l1kxtjsbr"
+        },
+        {
+          "Name": "label",
+          "Value": "WebPolideportivo.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
+        }
+      ]
+    },
+    {
+      "Route": "WebPolideportivo.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebPolideportivo.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
+        }
+      ]
+    },
+    {
+      "Route": "WebPolideportivo.styles.css",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebPolideportivo.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TV7ETo2YkC57CFWzPAlpwbwfFz5exSpPqKu/OLtIHA="
+        }
+      ]
+    }
+  ]
+}
