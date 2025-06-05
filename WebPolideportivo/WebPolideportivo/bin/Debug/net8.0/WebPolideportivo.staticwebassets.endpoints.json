@@ -1151,53 +1151,8 @@
       ]
     },
     {
-      "Route": "images/CuadradoRojo.dfx4fhik8e.png",
-      "AssetFile": "images/CuadradoRojo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "419"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 11:46:12 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dfx4fhik8e"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc="
-        },
-        {
-          "Name": "label",
-          "Value": "images/CuadradoRojo.png"
-        }
-      ]
-    },
-    {
-      "Route": "images/CuadradoRojo.png",
-      "AssetFile": "images/CuadradoRojo.png",
+      "Route": "images/CirculoRojo.png",
+      "AssetFile": "images/CirculoRojo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1210,7 +1165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "419"
+          "Value": "748"
         },
         {
           "Name": "Content-Type",
@@ -1218,23 +1173,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=\""
+          "Value": "\"GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 11:46:12 GMT"
+          "Value": "Thu, 05 Jun 2025 12:19:14 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc="
+          "Value": "sha256-GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag="
         }
       ]
     },
     {
-      "Route": "images/CuadradoVerde.jrhblebq6g.png",
-      "AssetFile": "images/CuadradoVerde.png",
+      "Route": "images/CirculoRojo.ztfzkpys4n.png",
+      "AssetFile": "images/CirculoRojo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1247,7 +1202,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "474"
+          "Value": "748"
         },
         {
           "Name": "Content-Type",
@@ -1255,31 +1210,76 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=\""
+          "Value": "\"GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 10:37:32 GMT"
+          "Value": "Thu, 05 Jun 2025 12:19:14 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrhblebq6g"
+          "Value": "ztfzkpys4n"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc="
+          "Value": "sha256-GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag="
         },
         {
           "Name": "label",
-          "Value": "images/CuadradoVerde.png"
+          "Value": "images/CirculoRojo.png"
         }
       ]
     },
     {
-      "Route": "images/CuadradoVerde.png",
-      "AssetFile": "images/CuadradoVerde.png",
+      "Route": "images/CirculoRojoFutbol.291wdz0rm9.png",
+      "AssetFile": "images/CirculoRojoFutbol.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 13:08:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "291wdz0rm9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8="
+        },
+        {
+          "Name": "label",
+          "Value": "images/CirculoRojoFutbol.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/CirculoRojoFutbol.png",
+      "AssetFile": "images/CirculoRojoFutbol.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1292,7 +1292,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "474"
+          "Value": "3160"
         },
         {
           "Name": "Content-Type",
@@ -1300,17 +1300,181 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=\""
+          "Value": "\"qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 10:37:32 GMT"
+          "Value": "Thu, 05 Jun 2025 13:08:21 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc="
+          "Value": "sha256-qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8="
+        }
+      ]
+    },
+    {
+      "Route": "images/CirculoVerde.fx76pomeuk.png",
+      "AssetFile": "images/CirculoVerde.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZna0BTP20aC/WmyUdYS+XPWIZVyabcGihaiv3itqX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 12:16:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fx76pomeuk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZna0BTP20aC/WmyUdYS+XPWIZVyabcGihaiv3itqX0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/CirculoVerde.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/CirculoVerde.png",
+      "AssetFile": "images/CirculoVerde.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZna0BTP20aC/WmyUdYS+XPWIZVyabcGihaiv3itqX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 12:16:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZna0BTP20aC/WmyUdYS+XPWIZVyabcGihaiv3itqX0="
+        }
+      ]
+    },
+    {
+      "Route": "images/CirculoVerdeFutbol.png",
+      "AssetFile": "images/CirculoVerdeFutbol.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a1/zEFZ+YUeX/w4VkzYq7fzdSw0rLwX/Jpv+ja0KVQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 13:08:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a1/zEFZ+YUeX/w4VkzYq7fzdSw0rLwX/Jpv+ja0KVQs="
+        }
+      ]
+    },
+    {
+      "Route": "images/CirculoVerdeFutbol.tuwh8eugq3.png",
+      "AssetFile": "images/CirculoVerdeFutbol.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a1/zEFZ+YUeX/w4VkzYq7fzdSw0rLwX/Jpv+ja0KVQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 13:08:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tuwh8eugq3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a1/zEFZ+YUeX/w4VkzYq7fzdSw0rLwX/Jpv+ja0KVQs="
+        },
+        {
+          "Name": "label",
+          "Value": "images/CirculoVerdeFutbol.png"
         }
       ]
     },

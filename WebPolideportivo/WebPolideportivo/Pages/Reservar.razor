@@ -71,7 +71,10 @@
                 disponible = d;
             }
 
-            var imagen = disponible ? "images/CuadradoVerde.png" : "images/CuadradoRojo.png";
+            var imagen = (pistaPos.Id == 15 || pistaPos.Id == 16)
+            ? (disponible ? "images/CirculoVerdeFutbol.png" : "images/CirculoRojoFutbol.png")
+            : (disponible ? "images/CirculoVerde.png" : "images/CirculoRojo.png");
+
             var cursorStyle = disponible ? "pointer" : "default";
 
             if (disponible)
@@ -178,7 +181,6 @@ else
         new() { Id = 8, Top = "58px", Left = "328px", Width = "58px", Height = "110px" },
         new() { Id = 9, Top = "172px", Left = "264px", Width = "59.5px", Height = "107px" },
         new() { Id = 10, Top = "172px", Left = "328px", Width = "58px", Height = "107px" },
-        //----------------------------------------------------------------------------------
         new() { Id = 11, Top = "332.5px", Left = "262.5px", Width = "59.5px", Height = "110px" },
         new() { Id = 12, Top = "332.5px", Left = "326.5px", Width = "58.5px", Height = "110px" },
         new() { Id = 13, Top = "446px", Left = "262.5px", Width = "59.5px", Height = "107px" },

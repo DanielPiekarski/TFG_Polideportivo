@@ -156,29 +156,53 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:38:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CuadradoRojo.dfx4fhik8e.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CuadradoRojo.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoRojo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoRojo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dfx4fhik8e"},{"Name":"integrity","Value":"sha256-xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc="},{"Name":"label","Value":"_content/WebPolideportivo/images/CuadradoRojo.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"419"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 11:46:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"748"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 12:19:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CuadradoRojo.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CuadradoRojo.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoRojo.ztfzkpys4n.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoRojo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"419"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xwr7gIs/Ora2wdNYkoKdsOOnw2l/acea9q9aARIGiUc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 11:46:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ztfzkpys4n"},{"Name":"integrity","Value":"sha256-GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag="},{"Name":"label","Value":"_content/WebPolideportivo/images/CirculoRojo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"748"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GQ3dHmeEOzqEoVj1rh2UQuws6O33fvk3Cyj/we0haag=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 12:19:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CuadradoVerde.jrhblebq6g.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CuadradoVerde.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoRojoFutbol.291wdz0rm9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoRojoFutbol.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jrhblebq6g"},{"Name":"integrity","Value":"sha256-r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc="},{"Name":"label","Value":"_content/WebPolideportivo/images/CuadradoVerde.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"474"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 10:37:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"291wdz0rm9"},{"Name":"integrity","Value":"sha256-qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8="},{"Name":"label","Value":"_content/WebPolideportivo/images/CirculoRojoFutbol.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3160"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 13:08:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CuadradoVerde.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CuadradoVerde.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoRojoFutbol.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoRojoFutbol.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"474"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r4s1rSJHnygPCrvdZ2uamR40PjcgF3BBEUZNqqRxQBc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 10:37:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3160"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qthsPtNA/Pn4ljj9f9Z3lrnbP5ecJpX/TjMaAEhqCz8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 13:08:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoVerde.fx76pomeuk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoVerde.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fx76pomeuk"},{"Name":"integrity","Value":"sha256-XZna0BTP20aC/WmyUdYS\u002BXPWIZVyabcGihaiv3itqX0="},{"Name":"label","Value":"_content/WebPolideportivo/images/CirculoVerde.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"739"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XZna0BTP20aC/WmyUdYS\u002BXPWIZVyabcGihaiv3itqX0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 12:16:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoVerde.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoVerde.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XZna0BTP20aC/WmyUdYS\u002BXPWIZVyabcGihaiv3itqX0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"739"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XZna0BTP20aC/WmyUdYS\u002BXPWIZVyabcGihaiv3itqX0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 12:16:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoVerdeFutbol.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoVerdeFutbol.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a1/zEFZ\u002BYUeX/w4VkzYq7fzdSw0rLwX/Jpv\u002Bja0KVQs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a1/zEFZ\u002BYUeX/w4VkzYq7fzdSw0rLwX/Jpv\u002Bja0KVQs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 13:08:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/CirculoVerdeFutbol.tuwh8eugq3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\CirculoVerdeFutbol.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tuwh8eugq3"},{"Name":"integrity","Value":"sha256-a1/zEFZ\u002BYUeX/w4VkzYq7fzdSw0rLwX/Jpv\u002Bja0KVQs="},{"Name":"label","Value":"_content/WebPolideportivo/images/CirculoVerdeFutbol.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a1/zEFZ\u002BYUeX/w4VkzYq7fzdSw0rLwX/Jpv\u002Bja0KVQs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 13:08:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/pista-1.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pista-1.png'))</AssetFile>

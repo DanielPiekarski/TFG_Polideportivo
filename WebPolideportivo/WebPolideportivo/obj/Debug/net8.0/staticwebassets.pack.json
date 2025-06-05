@@ -57,12 +57,20 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoRojo.png",
-      "PackagePath": "staticwebassets\\images\\CuadradoRojo.png"
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CirculoRojo.png",
+      "PackagePath": "staticwebassets\\images\\CirculoRojo.png"
     },
     {
-      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CuadradoVerde.png",
-      "PackagePath": "staticwebassets\\images\\CuadradoVerde.png"
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CirculoRojoFutbol.png",
+      "PackagePath": "staticwebassets\\images\\CirculoRojoFutbol.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CirculoVerde.png",
+      "PackagePath": "staticwebassets\\images\\CirculoVerde.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CirculoVerdeFutbol.png",
+      "PackagePath": "staticwebassets\\images\\CirculoVerdeFutbol.png"
     },
     {
       "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\Pista-Padel-Suelta.png",
