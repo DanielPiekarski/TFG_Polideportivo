@@ -4,47 +4,92 @@
 
 <PageTitle>Mis Reservas</PageTitle>
 
-<h3>Mis Reservas</h3>
+<h3>Reservas Actuales</h3>
 
 @if (reservas == null)
 {
     <p><em>Cargando reservas...</em></p>
 }
-else if (reservas.Count == 0)
-{
-    <p>No tienes reservas realizadas.</p>
-}
 else
 {
-    <table class="table table-striped table-hover">
-        <thead>
-            <tr>
-                <th>Pista</th>
-                <th>Fecha</th>
-                <th>Hora inicio</th>
-                <th>Hora fin</th>
-                <th>Precio total (€)</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var reserva in reservas)
-            {
+    var ahora = DateTime.Now;
+    var reservasActivas = reservas.Where(r => r.FechaHoraFin > ahora).ToList();
+    var reservasPasadas = reservas.Where(r => r.FechaHoraFin <= ahora).ToList();
+
+    if (reservasActivas.Count == 0)
+    {
+        <p>No tienes reservas activas.</p>
+    }
+    else
+    {
+        <table class="table table-striped table-hover">
+            <thead>
                 <tr>
-                    <td>@reserva.NombrePista</td>
-                    <td>@reserva.FechaHoraInicio.ToString("yyyy-MM-dd")</td>
-                    <td>@reserva.FechaHoraInicio.ToString("HH:mm")</td>
-                    <td>@reserva.FechaHoraFin.ToString("HH:mm")</td>
-                    <td>@($"{reserva.PrecioTotal:F2}")€</td>
-                    <td class="text-end">
-                        <button class="btn btn-danger btn-sm" @onclick="() => EliminarReserva(reserva.Id)">
-                            Eliminar
-                        </button>
-                    </td>
+                    <th>Pista</th>
+                    <th>Fecha</th>
+                    <th>Hora inicio</th>
+                    <th>Hora fin</th>
+                    <th>Precio total (€)</th>
+                    <th></th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var reserva in reservasActivas)
+                {
+                    <tr>
+                        <td>@reserva.NombrePista</td>
+                        <td>@reserva.FechaHoraInicio.ToString("yyyy-MM-dd")</td>
+                        <td>@reserva.FechaHoraInicio.ToString("HH:mm")</td>
+                        <td>@reserva.FechaHoraFin.ToString("HH:mm")</td>
+                        <td>@($"{reserva.PrecioTotal:F2}")€</td>
+                        <td class="text-end">
+                            <button class="btn btn-danger btn-sm" @onclick="() => EliminarReserva(reserva.Id)">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <h3 class="mt-5">Historial de Reservas</h3>
+
+    @if (reservasPasadas.Count == 0)
+    {
+        <p>No tienes reservas anteriores.</p>
+    }
+    else
+    {
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <p class="mb-0"><strong>Total:</strong> @reservasPasadas.Count reserva(s)</p>
+            <button class="btn btn-outline-danger btn-sm" @onclick="BorrarHistorial">Borrar historial</button>
+        </div>
+
+        <table class="table table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>Pista</th>
+                    <th>Fecha</th>
+                    <th>Hora inicio</th>
+                    <th>Hora fin</th>
+                    <th>Precio total (€)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var reserva in reservasPasadas)
+                {
+                    <tr class="text-muted">
+                        <td>@reserva.NombrePista</td>
+                        <td>@reserva.FechaHoraInicio.ToString("yyyy-MM-dd")</td>
+                        <td>@reserva.FechaHoraInicio.ToString("HH:mm")</td>
+                        <td>@reserva.FechaHoraFin.ToString("HH:mm")</td>
+                        <td>@($"{reserva.PrecioTotal:F2}")€</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 }
 
 @if (!string.IsNullOrEmpty(mensajeError))
@@ -55,6 +100,9 @@ else
 @code {
     private List<Reserva>? reservas;
     private string? mensajeError;
+
+    [Inject]
+    private IJSRuntime JSRuntime { get; set; } = default!;
 
     protected override async Task OnInitializedAsync()
     {
@@ -90,6 +138,37 @@ else
         }
     }
 
-    [Inject]
-    private IJSRuntime JSRuntime { get; set; } = default!;
+    private async Task BorrarHistorial()
+    {
+        bool confirmar = await JSRuntime.InvokeAsync<bool>("confirm", "¿Estás seguro de que deseas borrar todo el historial?");
+        if (!confirmar)
+            return;
+
+        try
+        {
+            var ahora = DateTime.Now;
+            var reservasPasadas = new List<Reserva>();
+            if (reservas != null)
+            {
+                foreach (var reserva in reservas)
+                {
+                    if (reserva.FechaHoraFin <= ahora)
+                    {
+                        reservasPasadas.Add(reserva);
+                    }
+                }
+            }
+
+            foreach (var reserva in reservasPasadas)
+            {
+                await ApiService.EliminarReservaAsync(reserva.Id);
+            }
+
+            await CargarReservas();
+        }
+        catch (Exception ex)
+        {
+            mensajeError = $"Error al borrar historial: {ex.Message}";
+        }
+    }
 }

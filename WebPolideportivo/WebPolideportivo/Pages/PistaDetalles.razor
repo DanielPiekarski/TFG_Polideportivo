@@ -87,7 +87,9 @@ else
     protected override void OnParametersSet()
     {
         if (fecha != null)
+        {
             FechaSeleccionada = DateTime.Parse(fecha);
+        }
         HoraInicio = horaInicio;
         HoraFin = horaFin;
     }
