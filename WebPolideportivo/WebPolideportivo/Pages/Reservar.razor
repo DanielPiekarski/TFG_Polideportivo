@@ -16,23 +16,26 @@
             <label>Fecha:</label>
             <InputDate @bind-Value="fechaSeleccionada" class="form-control"
                        min="@datetoMin.ToString("yyyy-MM-dd")"
-                       max="@datetoMax.ToString("yyyy-MM-dd")" />
+                       max="@datetoMax.ToString("yyyy-MM-dd")"
+                       @onchange="OnFechaCambiada" />
         </div>
         <div class="col-md-2">
             <label>Hora inicio:</label>
             <select @bind="horaInicio" class="form-control">
-                @foreach (var hora in horasInicioDisponibles)
+                @foreach (var hora in HorasInicio)
                 {
-                    <option value="@hora">@hora</option>
+                    var disabled = fechaSeleccionada.Date == DateTime.Today && TimeSpan.Parse(hora) < DateTime.Now.TimeOfDay;
+                    <option value="@hora" disabled="@disabled">@hora</option>
                 }
             </select>
         </div>
         <div class="col-md-2">
             <label>Hora fin:</label>
             <select @bind="horaFin" class="form-control">
-                @foreach (var hora in horasFinDisponibles)
+                @foreach (var hora in HorasFin)
                 {
-                    <option value="@hora">@hora</option>
+                    var disabled = fechaSeleccionada.Date == DateTime.Today && TimeSpan.Parse(hora) <= DateTime.Now.TimeOfDay;
+                    <option value="@hora" disabled="@disabled">@hora</option>
                 }
             </select>
         </div>
@@ -149,8 +152,8 @@ else
     private string horaFinConfirmada = "";
     private DateTime fechaConfirmada;
 
-    private List<string> horasInicioDisponibles = Enumerable.Range(8, 14).Select(h => $"{h:00}:00").ToList();
-    private List<string> horasFinDisponibles = Enumerable.Range(9, 14).Select(h => $"{h:00}:00").ToList();
+    private List<string> horasInicioDisponibles = new();
+    private List<string> horasFinDisponibles = new();
 
     private List<Pista>? pistas;
     private List<Pista>? pistasFiltradas;
@@ -159,6 +162,9 @@ else
 
     DateTime datetoMin = DateTime.Now;
     DateTime datetoMax = DateTime.Now.AddYears(1);
+
+    private List<string> HorasInicio = Enumerable.Range(8, 14).Select(h => $"{h:00}:00").ToList();
+    private List<string> HorasFin = Enumerable.Range(9, 14).Select(h => $"{h:00}:00").ToList();
 
     private bool mostrarMapa = false;
     private bool cargando = false;
@@ -193,6 +199,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         pistas = await ApiService.GetPistasAsync();
+        ActualizarHorasDisponibles();
     }
 
     private async Task BuscarDisponibles()
@@ -245,11 +252,6 @@ else
         cargando = false;
     }
 
-    private void MostrarMapa()
-    {
-        mostrarMapa = !mostrarMapa;
-    }
-
     private async Task ToggleMapa()
     {
         if (!mostrarMapa)
@@ -263,5 +265,40 @@ else
     {
         var url = $"/pista/{pistaId}?fecha={fechaSeleccionada:yyyy-MM-dd}&horaInicio={horaInicio}&horaFin={horaFin}";
         NavigationManager.NavigateTo(url);
+    }
+
+    private void OnFechaCambiada(ChangeEventArgs e)
+    {
+        if (DateTime.TryParse(e.Value?.ToString(), out var nuevaFecha))
+        {
+            fechaSeleccionada = nuevaFecha;
+            ActualizarHorasDisponibles();
+        }
+    }
+
+    private void ActualizarHorasDisponibles()
+    {
+        int horaActual = DateTime.Now.Hour + 1;
+        int inicio = 8;
+        int fin = 22;
+
+        if (fechaSeleccionada.Date == DateTime.Today)
+        {
+            inicio = Math.Max(inicio, horaActual);
+        }
+
+        horasInicioDisponibles = Enumerable.Range(inicio, Math.Max(0, fin - inicio))
+                                           .Select(h => $"{h:00}:00")
+                                           .ToList();
+
+        horasFinDisponibles = Enumerable.Range(inicio + 1, Math.Max(0, fin - (inicio + 1)))
+                                        .Select(h => $"{h:00}:00")
+                                        .ToList();
+
+        if (!horasInicioDisponibles.Contains(horaInicio))
+            horaInicio = horasInicioDisponibles.FirstOrDefault() ?? "08:00";
+
+        if (!horasFinDisponibles.Contains(horaFin))
+            horaFin = horasFinDisponibles.FirstOrDefault() ?? "09:00";
     }
 }
