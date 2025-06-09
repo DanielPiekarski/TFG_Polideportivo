@@ -216,6 +216,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tuwh8eugq3"},{"Name":"integrity","Value":"sha256-a1/zEFZ\u002BYUeX/w4VkzYq7fzdSw0rLwX/Jpv\u002Bja0KVQs="},{"Name":"label","Value":"_content/WebPolideportivo/images/CirculoVerdeFutbol.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a1/zEFZ\u002BYUeX/w4VkzYq7fzdSw0rLwX/Jpv\u002Bja0KVQs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 11:17:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/default-profile.0hmmewqaox.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\default-profile.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0hmmewqaox"},{"Name":"integrity","Value":"sha256-vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc="},{"Name":"label","Value":"_content/WebPolideportivo/images/default-profile.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10734"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 12:08:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/default-profile.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\default-profile.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10734"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 12:08:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebPolideportivo/images/pista-1.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pista-1.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

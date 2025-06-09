@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using Microsoft.AspNetCore.Components.Forms;
+using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -131,6 +132,38 @@ public class ApiService
     {
         var response = await _http.PostAsJsonAsync("http://localhost:8000/auth/register", usuario);
         return response.IsSuccessStatusCode;
+    }
+
+    public async Task<bool> SubirFotoPerfilAsync(IBrowserFile file)
+    {
+        if (string.IsNullOrEmpty(_auth.Token?.Access_Token))
+            throw new InvalidOperationException("No autenticado.");
+
+        var content = new MultipartFormDataContent();
+        var stream = file.OpenReadStream(maxAllowedSize: 5 * 1024 * 1024);
+        var fileContent = new StreamContent(stream);
+        fileContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+
+        content.Add(fileContent, "file", file.Name);
+
+        var request = new HttpRequestMessage(HttpMethod.Put, "http://localhost:8000/auth/usuario/foto");
+        request.Content = content;
+        request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.Token.Access_Token);
+
+        var response = await _http.SendAsync(request);
+        return response.IsSuccessStatusCode;
+    }
+
+    public async Task<UserDto> ObtenerMiPerfilAsync()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get, "http://localhost:8000/auth/usuario/me");
+        request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.Token.Access_Token);
+
+        var response = await _http.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+
+        var json = await response.Content.ReadAsStringAsync();
+        return JsonSerializer.Deserialize<UserDto>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true })!;
     }
 }
 

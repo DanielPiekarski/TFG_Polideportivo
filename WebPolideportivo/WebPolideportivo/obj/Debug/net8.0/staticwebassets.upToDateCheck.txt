@@ -16,6 +16,7 @@ wwwroot\images\CirculoRojo.png
 wwwroot\images\CirculoRojoFutbol.png
 wwwroot\images\CirculoVerde.png
 wwwroot\images\CirculoVerdeFutbol.png
+wwwroot\images\default-profile.png
 wwwroot\images\pista-1.png
 wwwroot\images\pista-10.png
 wwwroot\images\pista-11.png

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TeZr0IHz7EjGfXCNASQNwe5+iGHba3Rgw2ayULIVN54=",
+  "Hash": "KkA2vTqxiU8X9MfhD8r7eaWk8MobtakUY3Pzz/2zNV8=",
   "Source": "WebPolideportivo",
   "BasePath": "_content/WebPolideportivo",
   "Mode": "Default",
@@ -435,6 +435,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\CirculoVerdeFutbol.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\default-profile.png",
+      "SourceId": "WebPolideportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\",
+      "BasePath": "_content/WebPolideportivo",
+      "RelativePath": "images/default-profile#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0hmmewqaox",
+      "Integrity": "vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default-profile.png"
     },
     {
       "Identity": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\pista-1.png",
@@ -2331,6 +2352,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-a1/zEFZ+YUeX/w4VkzYq7fzdSw0rLwX/Jpv+ja0KVQs="
+        }
+      ]
+    },
+    {
+      "Route": "images/default-profile.0hmmewqaox.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\default-profile.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 12:08:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0hmmewqaox"
+        },
+        {
+          "Name": "label",
+          "Value": "images/default-profile.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc="
+        }
+      ]
+    },
+    {
+      "Route": "images/default-profile.png",
+      "AssetFile": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\default-profile.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 12:08:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vHYiBWqKfjONGQ7lpIuqnSzlLvCnxmz43T452prGigc="
         }
       ]
     },
