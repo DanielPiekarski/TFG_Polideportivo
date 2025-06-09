@@ -1,10 +1,296 @@
 ﻿@page "/home"
 <RequireAuth />
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Inicio</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="home-container">
+    <div class="welcome-section">
+        <h1>Bienvenido al Polideportivo</h1>
+        <p>Reserva tus pistas de pádel, tenis y fútbol fácilmente.</p>
+        <div class="action-buttons">
+            <a href="/reservar" class="btn btn-primary">Reservar ahora</a>
+            <a href="/mis-reservas" class="btn btn-secondary">Mis reservas</a>
+        </div>
+    </div>
 
-Welcome to your new app.
+    <hr />
+    <div class="info-section">
+        <h2>Horarios de Reserva</h2>
+        <div class="horarios">
+            <div class="horario-normal">
+                <h3>Días laborables</h3>
+                <p><strong>Horario:</strong> 08:00 - 22:00</p>
+            </div>
+            <div class="horario-festivos">
+                <h3>Días festivos</h3>
+                <p><strong>Horario:</strong> 08:00 - 18:00</p>
+            </div>
+            <div class="calendario-resumen">
+                <h3>Resumen rápido</h3>
+                <table>
+                    <thead>
+                        <tr><th>Día</th><th>Horario</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Lunes - Viernes</td><td>08:00 - 22:00</td></tr>
+                        <tr><td>Sábado, Domingo y festivos</td><td>08:00 - 18:00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <div class="pistas-section">
+        <h2>Tipos de pistas disponibles</h2>
+        <div class="pistas-list">
+            <div class="pista-card padel">
+                <h3>🏓 Pádel</h3>
+                <p>Pistas modernas con suelo de última generación.</p>
+            </div>
+            <div class="pista-card tenis">
+                <h3>🎾 Tenis</h3>
+                <p>Pistas al aire libre y cubiertas para jugar todo el año.</p>
+            </div>
+            <div class="pista-card futbol">
+                <h3>⚽ Fútbol</h3>
+                <p>Campos de fútbol 7 y fútbol 11 con iluminación nocturna.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonios-section">
+        <h2>Lo que dicen nuestros usuarios</h2>
+        <div class="testimonios-list">
+            <blockquote>
+                <p>"¡Muy fácil reservar y las pistas están impecables!"</p>
+                <footer>— Ana G.</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Gran variedad de horarios y pistas disponibles, siempre encuentro sitio."</p>
+                <footer>— Luis M.</footer>
+            </blockquote>
+            <blockquote>
+                <p>"La atención y organización es excelente, muy recomendable."</p>
+                <footer>— Marta P.</footer>
+            </blockquote>
+        </div>
+    </div>
+    <div class="contacto-section">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna duda? Llámanos al <a href="tel:+34911222333">+34 911 222 333</a> o envíanos un correo a <a href="mailto:info@polideportivo.com">info@polideportivo.com</a></p>
+
+        <p>Encuéntranos aquí:</p>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.9638438381867!2d-3.742269635764026!3d40.36532605009422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42277dbec49961%3A0x78d8d0c82fc63b8f!2sCentro%20Deportivo%20Municipal%20Francisco%20Fern%C3%A1ndez%20Ochoa!5e0!3m2!1ses!2ses!4v1749461140004!5m2!1ses!2ses"
+                    width="100%"
+                    height="300"
+                    style="border:0; border-radius: 8px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<style>
+    .home-container {
+        padding: 2rem 3rem;
+        color: #222;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .welcome-section h1 {
+        font-size: 2.8rem;
+        color: #005f73;
+        margin-bottom: 0.2rem;
+    }
+
+    .welcome-section p {
+        font-size: 1.2rem;
+        color: #0a9396;
+        margin-bottom: 1.8rem;
+    }
+
+    .action-buttons a {
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.75rem 1.6rem;
+        border-radius: 6px;
+        margin-right: 1rem;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #0077b6;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: #023e8a;
+        }
+
+    .btn-secondary {
+        background-color: #90e0ef;
+        color: #023e8a;
+    }
+
+        .btn-secondary:hover {
+            background-color: #48cae4;
+        }
+
+    .info-section {
+        background-color: #e0fbfc;
+        padding: 1.5rem 2rem;
+        border-radius: 12px;
+        margin-bottom: 2.5rem;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+        max-width: 700px;
+    }
+
+        .info-section h2 {
+            color: #0077b6;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+    .horarios {
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .horario-normal, .horario-festivos, .calendario-resumen {
+        background-color: #caf0f8;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        flex: 1 1 200px;
+        box-shadow: inset 0 0 6px #0077b6aa;
+    }
+
+        .horario-normal h3, .horario-festivos h3, .calendario-resumen h3 {
+            margin-top: 0;
+            font-weight: 600;
+            color: #023e8a;
+        }
+
+        .calendario-resumen table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            margin-top: 0.5rem;
+        }
+
+        .calendario-resumen th, .calendario-resumen td {
+            border: 1px solid #0077b6aa;
+            padding: 0.4rem 0.8rem;
+            text-align: left;
+        }
+
+        .calendario-resumen th {
+            background-color: #0077b6;
+            color: white;
+        }
+
+    .pistas-section h2 {
+        margin-bottom: 1rem;
+        color: #0077b6;
+        font-weight: 700;
+    }
+
+    .pistas-list {
+        display: flex;
+        gap: 2rem;
+        max-width: 900px;
+        flex-wrap: wrap;
+    }
+
+    .pista-card {
+        background-color: #ade8f4;
+        padding: 1.8rem 1.5rem;
+        border-radius: 14px;
+        box-shadow: 0 3px 8px rgb(0 119 182 / 0.3);
+        flex: 1 1 260px;
+        transition: transform 0.3s ease;
+        cursor: default;
+    }
+
+        .pista-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgb(0 119 182 / 0.5);
+        }
+
+        .pista-card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #023e8a;
+        }
+
+        .pista-card.padel {
+            background-color: #90e0ef;
+        }
+
+        .pista-card.tenis {
+            background-color: #48cae4;
+        }
+
+        .pista-card.futbol {
+            background-color: #00b4d8;
+        }
+
+    .testimonios-section {
+        margin-top: 3rem;
+        max-width: 900px;
+    }
+
+        .testimonios-section h2 {
+            color: #0077b6;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+    .testimonios-list {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    blockquote {
+        background-color: #caf0f8;
+        padding: 1rem 1.3rem;
+        border-left: 6px solid #0077b6;
+        border-radius: 8px;
+        font-style: italic;
+        flex: 1 1 280px;
+        box-shadow: inset 0 0 8px #0077b6aa;
+        color: #023e8a;
+        margin: 0;
+    }
+
+        blockquote footer {
+            margin-top: 0.6rem;
+            font-style: normal;
+            font-weight: 600;
+            text-align: right;
+            color: #005f73;
+        }
+
+    .contacto-section {
+        margin-top: 3rem;
+        max-width: 600px;
+        color: #023e8a;
+        font-weight: 600;
+    }
+
+        .contacto-section a {
+            color: #0077b6;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+            .contacto-section a:hover {
+                text-decoration: underline;
+            }
+</style>

@@ -11,6 +11,7 @@ wwwroot\css\open-iconic\ICON-LICENSE
 wwwroot\css\open-iconic\README.md
 wwwroot\css\site.css
 wwwroot\favicon.png
+wwwroot\icono.png
 wwwroot\images\CirculoRojo.png
 wwwroot\images\CirculoRojoFutbol.png
 wwwroot\images\CirculoVerde.png

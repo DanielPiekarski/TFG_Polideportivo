@@ -1,5 +1,8 @@
 ﻿@page "/pista/{Id:int}"
 <RequireAuth />
+
+<PageTitle>@(pista?.Nombre ?? "Pista")</PageTitle>
+
 @using WebPolideportivo.Models
 @using WebPolideportivo.Services
 

@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\icono.png",
+      "PackagePath": "staticwebassets\\icono.png"
+    },
+    {
       "Id": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\wwwroot\\images\\CirculoRojo.png",
       "PackagePath": "staticwebassets\\images\\CirculoRojo.png"
     },
