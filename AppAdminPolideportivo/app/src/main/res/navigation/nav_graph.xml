@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.appadminpolideportivo.Views.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.appadminpolideportivo.Views.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_eliminarPistaFragment"
+            app:destination="@id/eliminarPistaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_agregarPistaFragment"
+            app:destination="@id/agregarPistaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_eliminarHorariosFragment"
+            app:destination="@id/eliminarHorariosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_actualizarPistaFragment"
+            app:destination="@id/actualizarPistaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarPistaFragment"
+        android:name="com.example.appadminpolideportivo.Views.Pistas.AgregarPistaFragment"
+        android:label="AgregarPistaFragment" />
+    <fragment
+        android:id="@+id/eliminarPistaFragment"
+        android:name="com.example.appadminpolideportivo.Views.Pistas.EliminarPistaFragment"
+        android:label="EliminarPistaFragment" />
+    <fragment
+        android:id="@+id/eliminarHorariosFragment"
+        android:name="com.example.appadminpolideportivo.Views.Pistas.EliminarHorariosFragment"
+        android:label="EliminarHorariosFragment" />
+    <fragment
+        android:id="@+id/actualizarPistaFragment"
+        android:name="com.example.appadminpolideportivo.Views.Pistas.ActualizarPistaFragment"
+        android:label="ActualizarPistaFragment" />
+</navigation>
