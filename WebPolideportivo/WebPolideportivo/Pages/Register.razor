@@ -74,8 +74,8 @@
 <div class="center-box">
     <h3>Registro</h3>
     <EditForm Model="usuario" OnValidSubmit="HandleRegister">
-        <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Nombre de usuario" maxlength="15" />
-        <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" />
+        <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Nombre de usuario" maxlength="20" />
+        <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" maxlength="20" />
         <button class="form-button" type="submit">Registrarse</button>
     </EditForm>
 
@@ -95,6 +95,30 @@
 
     private async Task HandleRegister()
     {
+        string? nombreOriginal = usuario.Nombre;
+        string? contraseñaOriginal = usuario.Contraseña;
+
+        if (string.IsNullOrWhiteSpace(nombreOriginal) || nombreOriginal != nombreOriginal?.Trim())
+        {
+            msg = "El nombre de usuario no puede empezar ni terminar con espacios.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(contraseñaOriginal) || contraseñaOriginal != contraseñaOriginal?.Trim())
+        {
+            msg = "La contraseña no puede empezar ni terminar con espacios.";
+            return;
+        }
+
+        if (!ValidarContraseña(contraseñaOriginal, out string error))
+        {
+            msg = error;
+            return;
+        }
+
+        usuario.Nombre = nombreOriginal!.Trim();
+        usuario.Contraseña = contraseñaOriginal!.Trim();
+
         var success = await ApiService.Register(usuario);
         if (!success)
         {
@@ -113,4 +137,39 @@
             Nav.NavigateTo("/login");
         }
     }
+
+    private bool ValidarContraseña(string contraseña, out string errorMensaje)
+    {
+        errorMensaje = null;
+
+        if (contraseña == null || contraseña.Length < 8)
+        {
+            errorMensaje = "La contraseña debe tener al menos 8 caracteres.";
+            return false;
+        }
+
+        bool tieneMayuscula = false;
+        bool tieneNumero = false;
+
+        foreach (char c in contraseña)
+        {
+            if (char.IsUpper(c)) tieneMayuscula = true;
+            if (char.IsDigit(c)) tieneNumero = true;
+        }
+
+        if (!tieneMayuscula)
+        {
+            errorMensaje = "La contraseña debe tener al menos una letra mayúscula.";
+            return false;
+        }
+
+        if (!tieneNumero)
+        {
+            errorMensaje = "La contraseña debe tener al menos un número.";
+            return false;
+        }
+
+        return true;
+    }
+
 }
