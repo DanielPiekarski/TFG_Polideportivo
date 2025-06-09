@@ -6,6 +6,25 @@
 @inject ApiService ApiService
 @inject NavigationManager Nav
 
+<div class="center-box">
+    <h3>Iniciar Sesión</h3>
+
+    <EditForm Model="usuario" OnValidSubmit="HandleLogin">
+        <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Usuario" maxlength="20" />
+        <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" />
+        <button type="submit" class="form-button">Entrar</button>
+    </EditForm>
+
+    @if (msg != null)
+    {
+        <p style="color:red">@msg</p>
+    }
+
+    <div class="link">
+        <a href="/">¿No tienes cuenta? Regístrate</a>
+    </div>
+</div>
+
 <style>
     body {
         margin: 0;
@@ -70,25 +89,6 @@
         margin-bottom: 1.5rem;
     }
 </style>
-
-<div class="center-box">
-    <h3>Iniciar Sesión</h3>
-
-    <EditForm Model="usuario" OnValidSubmit="HandleLogin">
-        <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Usuario" maxlength="15" />
-        <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" />
-        <button type="submit" class="form-button">Entrar</button>
-    </EditForm>
-
-    @if (msg != null)
-    {
-        <p style="color:red">@msg</p>
-    }
-
-    <div class="link">
-        <a href="/">¿No tienes cuenta? Regístrate</a>
-    </div>
-</div>
 
 @code {
     UserDto usuario = new();

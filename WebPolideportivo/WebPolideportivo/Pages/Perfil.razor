@@ -5,78 +5,65 @@
 
 <PageTitle>Perfil</PageTitle>
 
-@if (usuario != null)
-{
-    <div class="container mt-4">
-        <div class="card p-4 shadow rounded">
-            <div class="d-flex align-items-center">
-                <div class="position-relative me-4">
-                    <label for="fotoInput" style="cursor: pointer;" title="Haz clic para cambiar la foto">
-                        <img src="@fotoPerfilUrl"
-                        alt="Foto de perfil"
-                        class="rounded-circle shadow foto-perfil"
-                        style="width: 160px; height: 160px; object-fit: cover; border: 2px solid #ccc;" />
-                        <InputFile id="fotoInput" style="display:none" OnChange="CargarFoto" />
-                    </label>
-                </div>
+<div class="perfil-container">
+    @if (usuario != null)
+    {
+        <div class="perfil-header">
+            <label for="fotoInput" class="foto-label" title="Haz clic para cambiar la foto">
+                <img src="@fotoPerfilUrl" alt="Foto de perfil" class="foto-perfil" />
+                <InputFile id="fotoInput" style="display:none" OnChange="CargarFoto" />
+            </label>
+            <div class="perfil-info">
+                <h1>@usuario.Nombre</h1>
+                <p class="rol-usuario">Tipo de usuario: <strong>@usuario.Rol</strong></p>
 
-                <div>
-                    <h3 class="mb-3 fw-bold fs-3">@usuario.Nombre</h3>
-                    <p class="mb-3"><strong>Tipo de usuario:</strong> @usuario.Rol</p>
+                <p class="contraseña-label">
+                    Contraseña:
+                    <span class="contraseña-text">
+                        @(
+                            mostrarContraseña ? usuarioContraseña?.Contraseña : new string('•', 8)
+                            )
+                    </span>
+                    <button class="btn-ver" @onclick="() => mostrarContraseña = !mostrarContraseña" title="Mostrar/ocultar contraseña">
+                        @if (mostrarContraseña)
+                        {
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M2.5 1.5l19 19-1.5 1.5-3.2-3.2A9.916 9.916 0 0 1 12 20c-7 0-10-7-10-7a15.02 15.02 0 0 1 4.1-5.4L1 2.5 2.5 1.5zm5.54 5.54L9.5 8.5a3 3 0 0 0 4 4l1.46 1.46A6.457 6.457 0 0 1 12 15.5a6.5 6.5 0 0 1-6.48-6.46zm10.18 10.18l-1.42-1.42A9.945 9.945 0 0 0 22 12s-3-7-10-7c-1.92 0-3.68.56-5.15 1.53l1.49 1.49a6.443 6.443 0 0 1 8.63 8.63l1.41 1.41z" />
+                            </svg>
+                        }
+                        else
+                        {
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7Zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" />
+                            </svg>
+                        }
+                    </button>
+                </p>
 
-                    <p class="mb-3">
-                        <strong>Contraseña:</strong>
-                        <span style="font-family: monospace;">
-                            @(mostrarContraseña ? usuarioContraseña.Contraseña : new string('•', 8))
-                        </span>
-                        <button type="button" @onclick="() => mostrarContraseña = !mostrarContraseña" style="background: none; border: none; cursor: pointer; margin-left: 8px; vertical-align: middle;">
-                            @if (mostrarContraseña)
-                            {
-                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M2.5 1.5l19 19-1.5 1.5-3.2-3.2A9.916 9.916 0 0 1 12 20c-7 0-10-7-10-7a15.02 15.02 0 0 1 4.1-5.4L1 2.5 2.5 1.5zm5.54 5.54L9.5 8.5a3 3 0 0 0 4 4l1.46 1.46A6.457 6.457 0 0 1 12 15.5a6.5 6.5 0 0 1-6.48-6.46zm10.18 10.18l-1.42-1.42A9.945 9.945 0 0 0 22 12s-3-7-10-7c-1.92 0-3.68.56-5.15 1.53l1.49 1.49a6.443 6.443 0 0 1 8.63 8.63l1.41 1.41z" />
-                                </svg>
-                            }
-                            else
-                            {
-                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 5c-7 0-10 7-10 7s3 7 10 7 10-7 10-7-3-7-10-7Zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" />
-                                </svg>
-                            }
-                        </button>
-                    </p>
-
-                    @if (!string.IsNullOrEmpty(mensaje))
-                    {
-                        <p class="text-success mt-2">@mensaje</p>
-                    }
-                </div>
+                @if (!string.IsNullOrEmpty(mensaje))
+                {
+                    <p class="mensaje-exito">@mensaje</p>
+                }
             </div>
         </div>
 
-        <div class="card mt-4 p-4 shadow rounded">
-            <h5 class="mb-3">Resumen de actividad</h5>
+        <hr />
 
+        <section class="resumen-actividad">
+            <h2>Resumen de actividad</h2>
             @if (reservas.Count == 0)
             {
                 <p>No has realizado ninguna reserva aún.</p>
             }
             else
             {
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <strong>Total de reservas:</strong> @reservas.Count
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Total gastado:</strong> @totalGastado.ToString("C")
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Total de horas reservadas:</strong> @reservas.Sum(r => (r.FechaHoraFin - r.FechaHoraInicio).TotalHours).ToString("0.#")
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Número de pistas distintas usadas:</strong> @reservas.Select(r => r.NombrePista).Distinct().Count()
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Fecha de la próxima reserva:</strong>
+                <ul class="resumen-lista">
+                    <li><strong>Total de reservas: </strong> @reservas.Count</li>
+                    <li><strong>Total gastado: </strong> @totalGastado.ToString("C")</li>
+                    <li><strong>Total de horas reservadas: </strong> @reservas.Sum(r => (r.FechaHoraFin - r.FechaHoraInicio).TotalHours).ToString("0.#")</li>
+                    <li><strong>Número de pistas distintas usadas: </strong> @reservas.Select(r => r.NombrePista).Distinct().Count()</li>
+                    <li>
+                        <strong>Fecha de la próxima reserva: </strong>
                         @if (reservaMasCercana != null)
                         {
                             @reservaMasCercana.FechaHoraInicio.ToString("dd/MM/yyyy")
@@ -86,16 +73,138 @@
                             <span>No hay reservas activas</span>
                         }
                     </li>
-
                 </ul>
             }
-        </div>
-    </div>
-}
-else
-{
-    <p class="mt-4">Cargando perfil...</p>
-}
+        </section>
+    }
+    else
+    {
+        <p>Cargando perfil...</p>
+    }
+</div>
+
+<style>
+    .perfil-container {
+        padding: 3rem 4rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #222;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .perfil-header {
+        display: flex;
+        align-items: center;
+        gap: 3.5rem;
+        margin-bottom: 2.5rem;
+        background-color: #e0fbfc;
+        padding: 2.5rem 3rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+    }
+
+    .foto-label {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 6px 14px rgb(0 0 0 / 0.15);
+        transition: box-shadow 0.3s ease;
+    }
+
+        .foto-label:hover {
+            box-shadow: 0 8px 18px rgb(0 0 0 / 0.30);
+        }
+
+    .foto-perfil {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border: 3px solid #0077b6;
+        border-radius: 50%;
+        display: block;
+    }
+
+    .perfil-info h1 {
+        margin: 0 0 0.6rem 0;
+        font-weight: 700;
+        font-size: 2.8rem;
+        color: #0077b6;
+    }
+
+    .rol-usuario {
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+        font-size: 1.3rem;
+        color: #023e8a;
+    }
+
+    .contraseña-label {
+        font-size: 1.1rem;
+        color: #023e8a;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .contraseña-text {
+        font-family: monospace;
+        letter-spacing: 2.5px;
+        user-select: none;
+    }
+
+    .btn-ver {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        color: #0077b6;
+        display: flex;
+        align-items: center;
+    }
+
+    .mensaje-exito {
+        margin-top: 1.3rem;
+        color: #2d6a4f;
+        font-weight: 700;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #90e0ef;
+        margin-bottom: 2.5rem;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resumen-actividad {
+        background-color: #caf0f8;
+        padding: 2rem 3rem;
+        border-radius: 12px;
+        box-shadow: inset 0 0 10px #0077b6cc;
+    }
+
+        .resumen-actividad h2 {
+            margin-top: 0;
+            color: #0077b6;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+            font-size: 2.1rem;
+        }
+
+    .resumen-lista {
+        list-style: none;
+        padding-left: 0;
+        font-size: 1.2rem;
+        color: #023e8a;
+    }
+
+        .resumen-lista li {
+            margin-bottom: 1rem;
+        }
+</style>
 
 @code {
     private UserDto? usuario;
