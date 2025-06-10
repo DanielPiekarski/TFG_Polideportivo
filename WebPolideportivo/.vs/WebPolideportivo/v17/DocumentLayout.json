@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg_polideportivo\\webpolideportivo\\webpolideportivo\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|c:\\users\\nitropc\\documents\\tfg_polideportivo\\webpolideportivo\\webpolideportivo\\pages\\perfil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6025EA94-8A5B-467F-82C9-78B0E4935842}|WebPolideportivo\\WebPolideportivo.csproj|solutionrelative:webpolideportivo\\pages\\perfil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "WebPolideportivo\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Services\\ApiService.cs",
-              "RelativeToolTip": "WebPolideportivo\\Services\\ApiService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAgwIAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T19:24:47.036Z",
+              "Title": "Perfil.razor",
+              "DocumentMoniker": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\Perfil.razor",
+              "RelativeDocumentMoniker": "WebPolideportivo\\Pages\\Perfil.razor",
+              "ToolTip": "C:\\Users\\Nitropc\\Documents\\TFG_Polideportivo\\WebPolideportivo\\WebPolideportivo\\Pages\\Perfil.razor",
+              "RelativeToolTip": "WebPolideportivo\\Pages\\Perfil.razor",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAAPUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T19:33:01.365Z",
               "EditorCaption": ""
             }
           ]

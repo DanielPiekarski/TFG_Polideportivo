@@ -222,7 +222,7 @@
         usuario = await ApiService.ObtenerMiPerfilAsync();
         if (usuario != null)
         {
-            fotoPerfilUrl = !string.IsNullOrEmpty(usuario.Foto_Perfil) ? $"http://localhost:8000{usuario.Foto_Perfil}" : fotoPerfilUrl;
+            fotoPerfilUrl = !string.IsNullOrEmpty(usuario.Foto_Perfil) ? $"https://api-polideportivo.onrender.com{usuario.Foto_Perfil}" : fotoPerfilUrl;
         }
         reservas = await ApiService.GetMisReservasAsync();
         totalGastado = reservas.Sum(r => r.PrecioTotal);
@@ -243,7 +243,7 @@
                 usuario = await ApiService.ObtenerMiPerfilAsync();
                 if (!string.IsNullOrEmpty(usuario.Foto_Perfil))
                 {
-                    fotoPerfilUrl = $"http://localhost:8000{usuario.Foto_Perfil}?t={DateTime.Now.Ticks}";
+                    fotoPerfilUrl = $"https://api-polideportivo.onrender.com{usuario.Foto_Perfil}?t={DateTime.Now.Ticks}";
                 }
             }
             else
