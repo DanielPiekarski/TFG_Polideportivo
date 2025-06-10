@@ -6,10 +6,11 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlmodel import Session, select
 from app.models.usuario import Usuario
 from app.db.session import get_session
+from app.core.config import config
 
-SECRET_KEY = "5f13f93b697548c6b4e3f8a73d87f4fa2f8aa8b07cd8ff6d5cf8d3e0877e8391"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+SECRET_KEY = config.secret_key
+ALGORITHM = config.algorithm
+ACCESS_TOKEN_EXPIRE_MINUTES = config.access_token_expire_minutes
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
