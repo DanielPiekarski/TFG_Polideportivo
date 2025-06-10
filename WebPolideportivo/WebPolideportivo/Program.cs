@@ -12,7 +12,7 @@ builder.Services.AddSingleton<AuthService>();
 
 builder.Services.AddHttpClient<ApiService>(client =>
 {
-    client.BaseAddress = new Uri("http://localhost:8000/");
+    client.BaseAddress = new Uri("https://api-polideportivo.onrender.com/");
 });
 
 var app = builder.Build();

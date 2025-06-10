@@ -19,25 +19,25 @@ public class ApiService
     }
     public async Task<List<Pista>> GetPistasAsync()
     {
-        return await _http.GetFromJsonAsync<List<Pista>>("http://localhost:8000/api/pistas/");
+        return await _http.GetFromJsonAsync<List<Pista>>("https://api-polideportivo.onrender.com/api/pistas/");
     }
 
     public async Task<List<DateTime>> GetDisponibilidadAsync(int pistaId, DateTime fecha)
     {
-        var url = $"http://localhost:8000/api/reservas/{pistaId}/disponibilidad?fecha={fecha:yyyy-MM-dd}";
+        var url = $"https://api-polideportivo.onrender.com/api/reservas/{pistaId}/disponibilidad?fecha={fecha:yyyy-MM-dd}";
         var response = await _http.GetFromJsonAsync<Disponibilidad>(url);
         return response.Disponibles;
     }
 
     public async Task<Pista?> GetPistaPorIdAsync(int id)
     {
-        var url = $"http://localhost:8000/api/pistas/{id}";
+        var url = $"https://api-polideportivo.onrender.com/api/pistas/{id}";
         return await _http.GetFromJsonAsync<Pista>(url);
     }
 
     public async Task ActualizarDisponibilidadAsync(int pistaId, DateTime fecha, List<DateTime> nuevaDisponibilidad)
     {
-        var url = $"http://localhost:8000/api/reservas/{pistaId}/disponibilidad?fecha={fecha:yyyy-MM-dd}";
+        var url = $"https://api-polideportivo.onrender.com/api/reservas/{pistaId}/disponibilidad?fecha={fecha:yyyy-MM-dd}";
         var payload = new
         {
             disponibles = nuevaDisponibilidad.Select(d => d.ToString("yyyy-MM-ddTHH:mm:ss"))
@@ -61,7 +61,7 @@ public class ApiService
             fecha_hora_fin = fin.ToString("o")
         };
 
-        using var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:8000/api/reservas/")
+        using var request = new HttpRequestMessage(HttpMethod.Post, "https://api-polideportivo.onrender.com/api/reservas/")
         {
             Content = JsonContent.Create(reserva)
         };
@@ -74,7 +74,7 @@ public class ApiService
 
     public async Task<List<Reserva>> GetMisReservasAsync()
     {
-        var request = new HttpRequestMessage(HttpMethod.Get, "http://localhost:8000/api/reservas/mis-reservas");
+        var request = new HttpRequestMessage(HttpMethod.Get, "https://api-polideportivo.onrender.com/api/reservas/mis-reservas");
         if (!string.IsNullOrEmpty(_auth.Token?.Access_Token))
         {
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.Token.Access_Token);
@@ -97,7 +97,7 @@ public class ApiService
         if (string.IsNullOrEmpty(_auth.Token?.Access_Token))
             throw new InvalidOperationException("No autenticado.");
 
-        using var request = new HttpRequestMessage(HttpMethod.Delete, $"http://localhost:8000/api/reservas/{reservaId}");
+        using var request = new HttpRequestMessage(HttpMethod.Delete, $"https://api-polideportivo.onrender.com/api/reservas/{reservaId}");
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.Token.Access_Token);
 
         var response = await _http.SendAsync(request);
@@ -113,7 +113,7 @@ public class ApiService
     };
 
         var content = new FormUrlEncodedContent(dict);
-        var response = await _http.PostAsync("http://localhost:8000/auth/login", content);
+        var response = await _http.PostAsync("https://api-polideportivo.onrender.com/auth/login", content);
 
         if (response.IsSuccessStatusCode)
         {
@@ -130,7 +130,7 @@ public class ApiService
 
     public async Task<bool> Register(UserDto usuario)
     {
-        var response = await _http.PostAsJsonAsync("http://localhost:8000/auth/register", usuario);
+        var response = await _http.PostAsJsonAsync("https://api-polideportivo.onrender.com/auth/register", usuario);
         return response.IsSuccessStatusCode;
     }
 
@@ -146,7 +146,7 @@ public class ApiService
 
         content.Add(fileContent, "file", file.Name);
 
-        var request = new HttpRequestMessage(HttpMethod.Put, "http://localhost:8000/auth/usuario/foto");
+        var request = new HttpRequestMessage(HttpMethod.Put, "https://api-polideportivo.onrender.com/auth/usuario/foto");
         request.Content = content;
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.Token.Access_Token);
 
@@ -156,7 +156,7 @@ public class ApiService
 
     public async Task<UserDto> ObtenerMiPerfilAsync()
     {
-        var request = new HttpRequestMessage(HttpMethod.Get, "http://localhost:8000/auth/usuario/me");
+        var request = new HttpRequestMessage(HttpMethod.Get, "https://api-polideportivo.onrender.com/auth/usuario/me");
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", _auth.Token.Access_Token);
 
         var response = await _http.SendAsync(request);
