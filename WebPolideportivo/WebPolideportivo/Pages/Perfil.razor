@@ -59,7 +59,7 @@
             {
                 <ul class="resumen-lista">
                     <li><strong>Total de reservas: </strong> @reservas.Count</li>
-                    <li><strong>Total gastado: </strong> @totalGastado.ToString("C")</li>
+                    <li><strong>Total gastado: </strong> @($"{totalGastado:F2}€")</li>
                     <li><strong>Total de horas reservadas: </strong> @reservas.Sum(r => (r.FechaHoraFin - r.FechaHoraInicio).TotalHours).ToString("0.#")</li>
                     <li><strong>Número de pistas distintas usadas: </strong> @reservas.Select(r => r.NombrePista).Distinct().Count()</li>
                     <li>
