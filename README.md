@@ -24,8 +24,9 @@ Además, cuenta con una aplicación móvil destinada a los administradores para 
 
 ---
 
-## Acceso
+## Despliegue
 
+La API, la web y la base de datos están desplegadas en [Render](https://render.com).  
 Puedes acceder a la plataforma web desde el siguiente enlace:  
 [https://tfg-polideportivo.onrender.com](https://tfg-polideportivo.onrender.com)
 
