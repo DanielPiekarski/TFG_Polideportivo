@@ -1,4 +1,4 @@
-﻿@page "/mis-reservas"
+@page "/mis-reservas"
 <RequireAuth />
 @inject ApiService ApiService
 
@@ -96,6 +96,107 @@ else
 {
     <div class="alert alert-danger">@mensajeError</div>
 }
+
+<style>
+    .table {
+        width: 100%;
+        margin-bottom: 2em;
+        border-collapse: collapse;
+        font-size: 1em;
+    }
+
+        .table th, .table td {
+            padding: 0.8em 1%;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+    .table-striped tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .text-end {
+        text-align: end;
+    }
+
+    .btn {
+        padding: 0.5em 1.5em;
+        font-size: 1em;
+        border-radius: 0.4em;
+        cursor: pointer;
+        display: inline-block;
+        width: auto;
+    }
+
+    .btn-sm {
+        padding: 0.4em 1em;
+        font-size: 0.9em;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .btn-outline-danger {
+        background-color: transparent;
+        color: #dc3545;
+        border: 1px solid #dc3545;
+    }
+
+        .btn-outline-danger:hover {
+            background-color: #dc3545;
+            color: white;
+        }
+
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .justify-content-between {
+        justify-content: space-between;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .mt-5 {
+        margin-top: 3em;
+    }
+
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
+    .mb-2 {
+        margin-bottom: 1em;
+    }
+
+    .alert {
+        padding: 1em;
+        margin-top: 1em;
+        border-radius: 0.5em;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+
+</style>
 
 @code {
     private List<Reserva>? reservas;
