@@ -10,6 +10,7 @@ Además, cuenta con una aplicación móvil destinada a los administradores para 
 
 - **Frontend Web:** Blazor  
 - **API Backend:** FastAPI  
+- **Base de datos:** PostgreSQL  
 - **Aplicación móvil:** Kotlin  
 
 ---
@@ -44,6 +45,7 @@ Puedes acceder a la plataforma web desde el siguiente enlace:
 - `frontend/` - Código de la aplicación web en Blazor  
 - `backend/` - API desarrollada en FastAPI  
 - `mobile/` - Aplicación móvil en Kotlin  
+- `database/` - Configuración y scripts para PostgreSQL (si aplica)  
 
 ---
 
