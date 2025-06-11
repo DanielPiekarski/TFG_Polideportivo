@@ -1,4 +1,4 @@
-﻿@page "/perfil"
+@page "/perfil"
 <RequireAuth />
 @inject AuthService Auth
 @inject ApiService ApiService
@@ -85,21 +85,22 @@
 
 <style>
     .perfil-container {
-        padding: 3rem 4rem;
+        padding: 3% 5%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #222;
-        max-width: 1100px;
+        max-width: 95%;
         margin: auto;
     }
 
     .perfil-header {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        gap: 3.5rem;
-        margin-bottom: 2.5rem;
+        gap: 5%;
+        margin-bottom: 3%;
         background-color: #e0fbfc;
-        padding: 2.5rem 3rem;
-        border-radius: 12px;
+        padding: 3% 4%;
+        border-radius: 1.5rem;
         box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
     }
 
@@ -111,6 +112,9 @@
         overflow: hidden;
         box-shadow: 0 6px 14px rgb(0 0 0 / 0.15);
         transition: box-shadow 0.3s ease;
+        width: 30vw;
+        max-width: 180px;
+        aspect-ratio: 1;
     }
 
         .foto-label:hover {
@@ -118,39 +122,40 @@
         }
 
     .foto-perfil {
-        width: 180px;
-        height: 180px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border: 3px solid #0077b6;
+        border: 0.3rem solid #0077b6;
         border-radius: 50%;
         display: block;
     }
 
     .perfil-info h1 {
-        margin: 0 0 0.6rem 0;
+        margin: 0 0 1% 0;
         font-weight: 700;
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         color: #0077b6;
     }
 
     .rol-usuario {
         font-weight: 700;
-        margin-bottom: 1.2rem;
-        font-size: 1.3rem;
+        margin-bottom: 1.5%;
+        font-size: 1.2rem;
         color: #023e8a;
     }
 
     .contraseña-label {
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: #023e8a;
         display: flex;
         align-items: center;
-        gap: 0.8rem;
+        gap: 1rem;
+        flex-wrap: wrap;
     }
 
     .contraseña-text {
         font-family: monospace;
-        letter-spacing: 2.5px;
+        letter-spacing: 0.2rem;
         user-select: none;
     }
 
@@ -165,7 +170,7 @@
     }
 
     .mensaje-exito {
-        margin-top: 1.3rem;
+        margin-top: 1.5%;
         color: #2d6a4f;
         font-weight: 700;
     }
@@ -173,17 +178,17 @@
     hr {
         border: none;
         border-top: 1px solid #90e0ef;
-        margin-bottom: 2.5rem;
-        max-width: 1100px;
+        margin-bottom: 2%;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .resumen-actividad {
         background-color: #caf0f8;
-        padding: 2rem 3rem;
-        border-radius: 12px;
-        box-shadow: inset 0 0 10px #0077b6cc;
+        padding: 3% 4%;
+        border-radius: 1.5rem;
+        box-shadow: inset 0 0 1rem #0077b6cc;
     }
 
         .resumen-actividad h2 {
@@ -191,19 +196,20 @@
             color: #0077b6;
             font-weight: 700;
             margin-bottom: 1.2rem;
-            font-size: 2.1rem;
+            font-size: 2rem;
         }
 
     .resumen-lista {
         list-style: none;
         padding-left: 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: #023e8a;
     }
 
         .resumen-lista li {
             margin-bottom: 1rem;
         }
+
 </style>
 
 @code {
