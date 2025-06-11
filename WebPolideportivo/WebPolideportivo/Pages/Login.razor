@@ -12,7 +12,9 @@
     <EditForm Model="usuario" OnValidSubmit="HandleLogin">
         <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Usuario" maxlength="20" />
         <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" />
-        <button type="submit" class="form-button">Entrar</button>
+        <button type="submit" class="form-button" disabled="@isLoading">
+            @(isLoading ? "Entrando..." : "Entrar")
+        </button>
     </EditForm>
 
     @if (msg != null)
@@ -93,13 +95,18 @@
 @code {
     UserDto usuario = new();
     string? msg;
+    bool isLoading = false;
 
     async Task HandleLogin()
     {
+        isLoading = true;
+        msg = null;
+
         var token = await ApiService.Login(usuario);
+        isLoading = false;
+
         if (token != null)
         {
-            msg = null;
             Nav.NavigateTo("/home");
         }
         else

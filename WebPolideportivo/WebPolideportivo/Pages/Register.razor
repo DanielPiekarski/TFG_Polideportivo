@@ -11,7 +11,9 @@
     <EditForm Model="usuario" OnValidSubmit="HandleRegister">
         <InputText class="form-input" @bind-Value="usuario.Nombre" placeholder="Nombre de usuario" maxlength="20" />
         <InputText class="form-input" @bind-Value="usuario.Contraseña" placeholder="Contraseña" type="password" maxlength="20" />
-        <button class="form-button" type="submit">Registrarse</button>
+        <button class="form-button" type="submit" disabled="@isLoading">
+            @(isLoading ? "Registrando..." : "Registrarse")
+        </button>
     </EditForm>
 
     @if (msg != null)
@@ -92,27 +94,34 @@
 @code {
     private UserDto usuario = new();
     private string? msg;
+    private bool isLoading = false;
 
     private async Task HandleRegister()
     {
+        isLoading = true;
+        msg = null;
+
         string? nombreOriginal = usuario.Nombre;
         string? contraseñaOriginal = usuario.Contraseña;
 
         if (string.IsNullOrWhiteSpace(nombreOriginal) || nombreOriginal != nombreOriginal?.Trim())
         {
             msg = "El nombre de usuario no puede empezar ni terminar con espacios.";
+            isLoading = false;
             return;
         }
 
         if (string.IsNullOrWhiteSpace(contraseñaOriginal) || contraseñaOriginal != contraseñaOriginal?.Trim())
         {
             msg = "La contraseña no puede empezar ni terminar con espacios.";
+            isLoading = false;
             return;
         }
 
         if (!ValidarContraseña(contraseñaOriginal, out string error))
         {
             msg = error;
+            isLoading = false;
             return;
         }
 
@@ -123,10 +132,13 @@
         if (!success)
         {
             msg = "El nombre de usuario ya existe.";
+            isLoading = false;
             return;
         }
 
         var token = await ApiService.Login(usuario);
+        isLoading = false;
+
         if (token is not null)
         {
             Nav.NavigateTo("/home");
