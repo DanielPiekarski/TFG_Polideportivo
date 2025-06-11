@@ -58,4 +58,15 @@ Para dudas o sugerencias, puedes contactarme a través del repositorio.
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT (modifica si es otra).
+Copyright (c) 2025 Daniel Piekarski
+
+Se concede permiso, sin cargo, a cualquier persona que obtenga una copia
+de este software y los archivos de documentación asociados (el "Software"),
+a usar el Software, incluyendo para copiarlo, modificarlo, fusionarlo,
+publicarlo y distribuirlo, bajo las siguientes condiciones:
+
+- **No está permitido vender, comercializar o distribuir el Software con fines comerciales.**
+
+El Software se proporciona "TAL CUAL", sin garantía de ningún tipo, expresa o implícita.
+En ningún caso los autores serán responsables por cualquier reclamo o daño que surja
+del uso del Software.
