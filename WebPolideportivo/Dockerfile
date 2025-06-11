@@ -8,6 +8,8 @@ WORKDIR /src
 
 COPY . .
 
+WORKDIR /src/WebPolideportivo
+
 RUN dotnet restore "WebPolideportivo.csproj"
 RUN dotnet publish "WebPolideportivo.csproj" -c Release -o /app/publish
 
