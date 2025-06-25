@@ -43,10 +43,9 @@ Puedes acceder a la plataforma web desde el siguiente enlace:
 
 ## Estructura del proyecto
 
-- `frontend/` - Código de la aplicación web en Blazor  
-- `backend/` - API desarrollada en FastAPI  
-- `mobile/` - Aplicación móvil en Kotlin  
-- `database/` - Configuración y scripts para PostgreSQL (si aplica)  
+- `WebPolideportivo/` - Código de la aplicación web en Blazor  
+- `API_Polideportivo/` - API desarrollada en FastAPI  
+- `AppAdminPolideportivo/` - Aplicación móvil en Kotlin  
 
 ---
 
